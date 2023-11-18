@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
 <TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Codifica del diario di <persName ref="artom">Emanuele Artom</persName></title>
+                <title type="main">Codifica del diario di <persName ref="#artom">Emanuele Artom</persName></title>
+                
             </titleStmt>
             <publicationStmt>
                 <publisher>
