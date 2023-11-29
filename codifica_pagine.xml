@@ -102,5 +102,57 @@
             <zone ulx="50" uly="919" lrx="594" lry="964" xml:id="p137_l33" />
             <zone ulx="54" uly="944" lrx="613" lry="986" xml:id="p137_l34" />
         </surface>
+
+        <surface xml:id="p138">
+            <graphic url='pg_138.jpeg' width='676px' height='1024px' />
+            <zone ulx="25" uly="21" lrx="634" lry="42" xml:id="p138_l1" />
+            <zone ulx="28" uly="46" lrx="639" lry="69" xml:id="p138_l2" />
+            <zone ulx="28" uly="68" lrx="623" lry="89" xml:id="p138_l3" />
+            <zone ulx="32" uly="95" lrx="638" lry="116" xml:id="p138_l4" />
+            <zone ulx="29" uly="117" lrx="634" lry="139" xml:id="p138_l5" />
+            <zone ulx="30" uly="143" lrx="633" lry="161" xml:id="p138_l6" />
+            <zone ulx="30" uly="162" lrx="654" lry="186" xml:id="p138_l7" />
+            <zone ulx="38" uly="192" lrx="641" lry="212" xml:id="p138_l8" />
+            <zone ulx="33" uly="218" lrx="637" lry="234" xml:id="p138_l9" />
+            <zone ulx="32" uly="237" lrx="637" lry="269" xml:id="p138_l10" />
+            <zone ulx="34" uly="270" lrx="634" lry="290" xml:id="p138_l11" />
+            <zone ulx="29" uly="291" lrx="651" lry="325" xml:id="p138_l12" />
+            <zone ulx="35" uly="328" lrx="655" lry="344" xml:id="p138_l13" />
+            <zone ulx="37" uly="338" lrx="559" lry="367" xml:id="p138_l14" />
+            <zone ulx="35" uly="347" lrx="601" lry="388" xml:id="p138_l15" />
+            <zone ulx="33" uly="367" lrx="665" lry="413" xml:id="p138_l16" />
+            <zone ulx="28" uly="399" lrx="629" lry="443" xml:id="p138_l17" />
+            <zone ulx="32" uly="436" lrx="605" lry="472" xml:id="p138_l18" />
+            <zone ulx="41" uly="464" lrx="649" lry="499" xml:id="p138_l19" />
+            <zone ulx="42" uly="494" lrx="648" lry="523" xml:id="p138_l20" />
+            <zone ulx="41" uly="520" lrx="643" lry="549" xml:id="p138_l21" />
+            <zone ulx="38" uly="547" lrx="653" lry="575" xml:id="p138_l22" />
+            <zone ulx="22" uly="576" lrx="636" lry="606" xml:id="p138_l23" />
+            <zone ulx="34" uly="605" lrx="607" lry="632" xml:id="p138_l24" />
+            <zone ulx="52" uly="630" lrx="619" lry="656" xml:id="p138_l25" />
+            <zone ulx="23" uly="654" lrx="636" lry="682" xml:id="p138_l26" />
+            <zone ulx="25" uly="677" lrx="609" lry="712" xml:id="p138_l27" />
+            <zone ulx="25" uly="710" lrx="635" lry="739" xml:id="p138_l28" />
+            <zone ulx="23" uly="735" lrx="643" lry="769" xml:id="p138_l29" />
+            <zone ulx="29" uly="763" lrx="650" lry="795" xml:id="p138_l30" />
+            <zone ulx="33" uly="791" lrx="631" lry="823" xml:id="p138_l31" />
+            <zone ulx="38" uly="823" lrx="587" lry="849" xml:id="p138_l32" />
+            <zone ulx="29" uly="846" lrx="634" lry="881" xml:id="p138_l33" />
+            <zone ulx="37" uly="877" lrx="632" lry="903" xml:id="p138_l34" />
+            <zone ulx="32" uly="899" lrx="650" lry="928" xml:id="p138_l35" />
+            <zone ulx="30" uly="924" lrx="649" lry="958" xml:id="p138_l36" />
+            <zone ulx="28" uly="952" lrx="626" lry="985" xml:id="p138_l37" />
+            <zone ulx="30" uly="988" lrx="102" lry="1009" xml:id="p138_l38" />
+        </surface>
     </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="diary">
+                <pb n="1" facs="p136" />
+                    <lb n="1" facs="p136_l1" break="yes" />
+                    
+            </div>
+        </body>
+    </text>
 </TEI>
