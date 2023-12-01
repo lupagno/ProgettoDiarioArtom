@@ -6,9 +6,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Codifica del diario di <persName ref="#artom">Emanuele Artom</persName></title>
+                <title type="main">
+                    Codifica del diario di <persName ref="#EA">Emanuele Artom</persName>
+                </title>
+                <author ref="#EA"> 
+                    <persName>Emanuele Artom</persName> 
+                </author>
                 <respStmt>
-                    <resp>Conversione TEI P5 a cura di </resp>
+                    <resp>Codifica e trascrizione a cura di </resp>
                     <persName xml:id="personal">
                         <forename>Luca</forename>
                         <surname>Pagnesi</surname>
@@ -150,8 +155,41 @@
         <body>
             <div type="diary">
                 <pb n="1" facs="p136" />
-                    <lb n="1" facs="p136_l1" break="yes" />
-                    
+                <ab>
+                    <s>
+                        <lb n="1" facs="p136_l1" break="yes" />
+                        fino alla base di Luigi<pc>.</pc>
+                    </s>
+                    <s>
+                        Arrivano i Tedeschi
+                        <lb n="2" facs="p136_l2" break="yes" />
+                        e gli altri lo lasciano sulla porta<pc>.</pc>
+                    </s>
+                    <s>
+                        Si sente
+                        <lb n="3" facs="p136_l3" break="yes" />
+                        svenire<pc>,</pc> ma fa uno sforzo e si nasconde
+                        <lb n="4" facs="p136_l4" break="yes" />
+                        sotto il letto<pc>.</pc> Quando entravano i Tedeschi
+                        <lb n="5" facs="p136_l5" break="yes" />
+                        aveva ancora le scarpe fuori<pc>.</pc>
+                    </s>
+                    <s>
+                        Un capitano
+                        <lb n="6" facs="p136_l6" break="yes" />
+                        e un tenente fanno il loro quartiere generale
+                        <lb n="7" facs="p136_l7" break="yes" />
+                        per 3 ore<pc>:</pc> <del rend="overstrike">Se s</del> ricevono notizie<pc>;</pc> impartiscono
+                        <lb n="8" facs="p136_l8" break="yes" />
+                        ordini<pc>.</pc>
+                    </s>
+                    <s>
+                        Poi partono dopo avere incendiato
+                        <lb n="9" facs="p136_l9" break="yes" />
+                        la paglia<pc>.</pc>
+                    </s>
+
+                </ab>
             </div>
         </body>
     </text>
