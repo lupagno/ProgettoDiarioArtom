@@ -14,7 +14,7 @@
                 </author>
                 <respStmt>
                     <resp>Codifica e trascrizione a cura di </resp>
-                    <persName xml:id="personal">
+                    <persName xml:id="LP">
                         <forename>Luca</forename>
                         <surname>Pagnesi</surname>
                     </persName>
@@ -50,11 +50,9 @@
             <zone ulx="88" uly="337" lrx="680" lry="369" xml:id="p136_l8" />
             <zone ulx="90" uly="371" lrx="693" lry="415" xml:id="p136_l9" />
             <zone ulx="73" uly="412" lrx="654" lry="450" xml:id="p136_l10" />
-            <zone ulx="339" uly="446" lrx="378" lry="465" xml:id="p136_l11corr" />
             <zone ulx="85" uly="454" lrx="665" lry="489" xml:id="p136_l11" />
             <zone ulx="89" uly="493" lrx="670" lry="531" xml:id="p136_l12" />
             <zone ulx="81" uly="534" lrx="665" lry="572" xml:id="p136_l13" />
-            <zone ulx="139" uly="561" lrx="218" lry="578" xml:id="p136_l14corr" />
             <zone ulx="84" uly="580" lrx="666" lry="612" xml:id="p136_l14" />
             <zone ulx="86" uly="611" lrx="657" lry="645" xml:id="p136_l15" />
             <zone ulx="81" uly="656" lrx="702" lry="688" xml:id="p136_l16" />
@@ -188,7 +186,68 @@
                         <lb n="9" facs="p136_l9" break="yes" />
                         la paglia<pc>.</pc>
                     </s>
-
+                    <s>
+                        Sotto la paglia c'è un fumo d'in
+                        <lb n="10" facs="p136_l10" break="no" />
+                        ferno<pc>.</pc>
+                    </s>
+                    <s>
+                        Zama si morde la lingua per non
+                        <lb n="11" facs="p136_l11" break="yes" />
+                        tossire<pc>.</pc>
+                    </s>
+                    <s>
+                        Quando <del rend="overstrike">non</del> non resiste più e si sente
+                        <lb n="12" facs="p136_l12" break="yes" />
+                        soffocare esce con la rivoltella <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> pugno<pc>,</pc>
+                        <lb n="13" facs="p136_l13" break="yes" />
+                        senza sapere se i <choice><abbr type="suspension">Ted</abbr><expan resp="#LP">Ted<ex>eschi</ex></expan></choice> sono già lontani<pc>.</pc>
+                    </s>
+                    <s>
+                        La
+                        <lb n="14" facs="p136_l14" break="yes" />
+                        neve <add>dei tetti</add> si scioglie al calore e l'acqua scende
+                        <lb n="15" facs="p136_l15" break="yes" />
+                        a catinelle<pc>.</pc>
+                    </s>
+                    <s>
+                        I <choice><abbr type="suspension">Ted</abbr><expan resp="#LP">Ted<ex>eschi</ex></expan></choice> si stanno allontanando<pc>,</pc>
+                        <lb n="16" facs="p136_l16" break="yes" />
+                        ma sono appena usciti<pc>.</pc>
+                    </s>
+                    <s>
+                        Recupera una coperta
+                        <lb n="17" facs="p136_l17" break="yes" />
+                        bruciacchiata e ripara nella grangia vicina<pc>,</pc>
+                        <lb n="18" facs="p136_l18" break="yes" />
+                        dove si ferma altre 3 ore<pc>.</pc>
+                    </s>
+                    <s>
+                        Poi sente passare
+                        <lb n="19" facs="p136_l19" break="yes" />
+                        uno vicino e chiama aiuto<pc>.</pc>
+                    </s>
+                    <s>
+                        Lo portano
+                        <lb n="20" facs="p136_l20" break="yes" />
+                        <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> un posto più riparato<pc>.</pc>
+                    </s>
+                    <s>
+                        Gina, credendo che
+                        <lb n="21" facs="p136_l21" break="yes" />
+                        stesse per morire e per evitare che i Tedeschi
+                        <lb n="22" facs="p136_l22" break="yes" />
+                        lo prendano gli fa 3 iniezioni di morfina
+                        <lb n="23" facs="p136_l23" break="yes" />
+                        per ucciderlo<pc>,</pc> ma riesce a superare anche
+                        <lb n="24" facs="p136_l24" break="yes" />
+                        questa prova<pc>.</pc> 
+                    </s>
+                    <s>
+                        Per 4 volte in un giorno sfiora la
+                        <lb n="25" facs="p136_l25" break="yes" />
+                        morte<pc>.</pc>
+                    </s>
                 </ab>
             </div>
         </body>
