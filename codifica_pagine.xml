@@ -267,36 +267,59 @@
                         <lb n="6" facs="p137_l6" break="no" />
                         rino</placeName><pc>,</pc> ritirerà malati nella sua casa e li curerà<pc>,</pc>
                         <lb n="7" facs="p137_l7" break="yes" />
-                        ci <del rend="overstrike">dara</del> procurerà 30 moschetti<pc>.</pc> Non è poco<pc>,</pc> ma
+                        ci <del rend="overstrike">dara</del> procurerà 30 moschetti<pc>.</pc>
+                    </s>
+                    <s>
+                        Non è poco<pc>,</pc> ma
                         <lb n="8" facs="p137_l8" break="yes" />
                         quando gli ho <choice><sic>chieso</sic><corr resp="#LP">chiesto</corr></choice> le sue opinioni politiche<pc>,</pc> mi
                         <lb n="9" facs="p137_l9" break="yes" />
-                        ha risposto<pc>:</pc> non ne ho<pc>.</pc> Allora gli ho ripetuto quanto
+                        ha risposto<pc>:</pc> non ne ho<pc>.</pc>
+                    </s>
+                    <s>
+                        Allora gli ho ripetuto quanto
                         <lb n="10" facs="p137_l10" break="yes" />
                         da due settimane vado ripetendo a tutti i miei
                         <lb n="11" facs="p137_l11" break="yes" />
-                        uomini<pc>:</pc><add place="below" hand="author" rend="pen">
-                        <lb n="12" facs="p137_l20" break="yes" />
-                        Un giovane russo o americano della tua età
-                        <lb n="13" facs="p137_l21" break="yes" />
-                        <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> non mi risponderebbe certo come te<pc>.</pc> <del rend="overstrike">Non ci</del></add>
-                        <del rend="overstrike">se non hai opinioni po</del> il Fascismo non
-                        <lb n="14" facs="p137_l12" break="yes" />
-                        è una tegola cadutaci per caso sulla testa<pc>;</pc> è
-                        <lb n="15" facs="p137_l13" break="yes" />
-                        un<del rend="ovestrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> effetto della apoliticità e quindi della
-                        <lb n="16" facs="p137_l14" break="yes" />
-                        immoralità civile del Popolo italiano<pc>.</pc> Se non
-                        <lb n="17" facs="p137_l15" break="yes" />
-                        ci facciamo una <del>cultura politica<pc>,</pc> ricadrete</del> co<pc type="syllabication">_</pc>
-                        <lb n="18" facs="p137_l16" break="no" />
-                        scienza politica<pc>,</pc> non sapremo governarci e un
-                        <lb n="19" facs="p137_l17" break="yes" />
-                        popolo che non sa governarsi cade necessaria<pc type="syllabication">_</pc>
-                        <lb n="20" facs="p137_l18" break="no" />
-                        mente sotto il dominio straniero o sotto la
-                        <lb n="21" facs="p137_l19" break="yes" />
-                        dittatura di uno dei suoi<pc>.</pc> <del>Non ci avevi</del>
+                        uomini<pc>:</pc>
+                    </s>
+                    <seg xml:id="trs01">
+                        <metamark function="transposition" place="margin-left" rend="line"></metamark>
+                        <s>
+                            <del rend="overstrike">se non hai opinioni po</del> il Fascismo non
+                            <lb n="14" facs="p137_l12" break="yes" />
+                            è una tegola cadutaci per caso sulla testa<pc>;</pc> è
+                            <lb n="15" facs="p137_l13" break="yes" />
+                            un<del rend="ovestrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> effetto della apoliticità e quindi della
+                            <lb n="16" facs="p137_l14" break="yes" />
+                            immoralità civile del Popolo italiano<pc>.</pc>
+                        </s>
+                        <s>
+                            Se non
+                            <lb n="17" facs="p137_l15" break="yes" />
+                            ci facciamo una <del>cultura politica<pc>,</pc> ricadrete</del> co<pc type="syllabication">_</pc>
+                            <lb n="18" facs="p137_l16" break="no" />
+                            scienza politica<pc>,</pc> non sapremo governarci e un
+                            <lb n="19" facs="p137_l17" break="yes" />
+                            popolo che non sa governarsi cade necessaria<pc type="syllabication">_</pc>
+                            <lb n="20" facs="p137_l18" break="no" />
+                            mente sotto il dominio straniero o sotto la
+                            <lb n="21" facs="p137_l19" break="yes" />
+                            dittatura di uno dei suoi<pc>.</pc>
+                        </s>
+                            <del>Non ci avevi</del>
+                    </seg>
+                    <seg xml:id="trs02">
+                        <metamark function="transposition" place="margin-left" rend="line"></metamark>
+                        <s>
+                            <lb n="12" facs="p137_l20" break="yes" />
+                            Un giovane russo o americano della tua età
+                            <lb n="13" facs="p137_l21" break="yes" />
+                            <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> non mi risponderebbe certo come te<pc>.</pc>
+                        </s>
+                        <del rend="overstrike">Non ci</del>
+                    </seg>
+                    <s>
                         <lb n="22" facs="p137_l22" break="yes" />
                         Ho ragione<pc>?</pc> Si ha ammesso<pc>.</pc> <pc>-</pc> E non ci avevi
                         <lb n="23" facs="p137_l23" break="yes" />
@@ -305,10 +328,15 @@
                         pensi a queste cose<pc>?</pc> Ma mi ha promesso di occu<pc type="syllabication">_</pc>
                         <lb n="25" facs="p137_l25" break="no" />
                         parsi seriamente di queste cose<pc>.</pc>
+                    </s>
+                    <s>
                         <lb n="26" facs="p137_l26" break="yes" />
                         Più <del rend="overstrike">grave</del><add place="above">penoso</add> è stato il colloquio con i <add place="above">2</add> P<pc>.</pc> e con
                         <lb n="27" facs="p137_l27" break="yes" />
-                        G<pc>.</pc> ieri pomeriggio<pc>.</pc> Come avevo scritto in uno
+                        G<pc>.</pc> ieri pomeriggio<pc>.</pc>
+                    </s>
+                    <s>
+                        Come avevo scritto in uno
                         <lb n="28" facs="p137_l28" break="yes" />
                         dei fogli distrutti<pc>,</pc> G<pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
                         <lb n="29" facs="p137_l29" break="yes" />
@@ -318,11 +346,28 @@
                         <lb n="31" facs="p137_l31" break="yes" />
                         e <del rend="overstrike">tutto</del> durante la conversazione tutti e tre con<pc type="syllabication">_</pc>
                         <lb n="32" facs="p137_l32" break="yes" />
-                        tinuavano a ridere scioccamente<pc>.</pc> Domani il
+                        tinuavano a ridere scioccamente<pc>.</pc>
+                    </s>
+                    <s>
+                        Domani il
                         <lb n="33" facs="p137_l33" break="yes" />
-                        colonnello e io vedremo Sergio<pc>.</pc> Gli diremo
+                        colonnello e io vedremo Sergio<pc>.</pc>
+                    </s>
+                    <s>
+                        Gli diremo
                         <lb n="34" facs="p137_l34" break="yes" />
                         chiaramente<pc>:</pc> il Fr. <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ista</ex></expan></choice> non riconosce gli
+                    </s>
+                </ab>
+                <pb n="3" facs="p138" />
+                <ab>
+                    <s>
+                        <lb n="1" facs="p138_l1" break="yes" />
+                        azzurri: se tu sei azzurro, non puoi stare con noi<pc>.</pc>
+                    </s>
+                    <s>
+                        <lb n="2" facs="p138_l2" break="yes" />
+                        Dici di essere apolitico, ma invece sei badogliano<pc>.</pc>
                     </s>
 
                 </ab>
