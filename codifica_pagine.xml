@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" [
+    <!ENTITY raquo "&#187;">
+]>
 
 <TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -206,7 +208,7 @@
                     <s>
                         La
                         <lb n="14" facs="p136_l14" break="yes" />
-                        neve <add>dei tetti</add> si scioglie al calore e l'acqua scende
+                        neve <add resp="#EA" place="above">dei tetti</add> si scioglie al calore e l'acqua scende
                         <lb n="15" facs="p136_l15" break="yes" />
                         a catinelle<pc>.</pc>
                     </s>
@@ -323,7 +325,7 @@
                         <lb n="22" facs="p137_l22" break="yes" />
                         Ho ragione<pc>?</pc> Si ha ammesso<pc>.</pc> <pc>-</pc> E non ci avevi
                         <lb n="23" facs="p137_l23" break="yes" />
-                        mai pensato<pc>?</pc> <del rend="overstrike">Come</del><del rend="overstrike">Come crede</del> <add place="above">Ti pare</add> che uno come me
+                        mai pensato<pc>?</pc> <del rend="overstrike">Come</del><del rend="overstrike">Come crede</del> <add resp="#EA" place="above">Ti pare</add> che uno come me
                         <lb n="24" facs="p137_l24" break="yes" />
                         pensi a queste cose<pc>?</pc> Ma mi ha promesso di occu<pc type="syllabication">_</pc>
                         <lb n="25" facs="p137_l25" break="no" />
@@ -331,16 +333,16 @@
                     </s>
                     <s>
                         <lb n="26" facs="p137_l26" break="yes" />
-                        Più <del rend="overstrike">grave</del><add place="above">penoso</add> è stato il colloquio con i <add place="above">2</add> P<pc>.</pc> e con
+                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> P<pc>.</pc> e con
                         <lb n="27" facs="p137_l27" break="yes" />
-                        G<pc>.</pc> ieri pomeriggio<pc>.</pc>
+                        <choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice><pc>.</pc> ieri pomeriggio<pc>.</pc>
                     </s>
                     <s>
                         Come avevo scritto in uno
                         <lb n="28" facs="p137_l28" break="yes" />
-                        dei fogli distrutti<pc>,</pc> G<pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
+                        dei fogli distrutti<pc>,</pc> <choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice><pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
                         <lb n="29" facs="p137_l29" break="yes" />
-                        quando fummo presentati e seppe che ero <choice><abbr type="suspension">comun</abbr><expan resp="#LP">comun<ex>ista</ex></expan></choice>
+                        quando fummo presentati e seppe che ero <choice><abbr type="suspension">comm</abbr><expan resp="#LP">commm<ex>issario</ex></expan></choice>
                         <lb n="30" facs="p137_l30" break="yes" />
                         disse ridendo<pc>:</pc> ma noi non li vogliamo i politici
                         <lb n="31" facs="p137_l31" break="yes" />
@@ -356,7 +358,7 @@
                     <s>
                         Gli diremo
                         <lb n="34" facs="p137_l34" break="yes" />
-                        chiaramente<pc>:</pc> il Fr. <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ista</ex></expan></choice> non riconosce gli
+                        chiaramente<pc>:</pc> il <choice><abbr type="suspension">Fr<pc>.</pc></abbr><expan resp="#LP">Fr<ex>onte</ex></expan></choice> <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ionale</ex></expan></choice> non riconosce gli
                     </s>
                 </ab>
                 <pb n="3" facs="p138" />
@@ -369,7 +371,111 @@
                         <lb n="2" facs="p138_l2" break="yes" />
                         Dici di essere apolitico, ma invece sei badogliano<pc>.</pc>
                     </s>
-
+                    <s>
+                        <lb n="3" facs="p138_l3" break="yes" />
+                        D'altra parte persuaditi che sei indietro di 40
+                        <lb n="4" facs="p138_l4" break="yes" />
+                        anni<pc>:</pc> democrazia e comunismo<pc>:</pc> questo è l'avve<pc type="syllabication">_</pc>
+                        <lb n="5" facs="p138_l5" break="no" />
+                        nire del mondo<pc>:</pc> per le monarchie e i militaristi
+                        <lb n="6" facs="p138_l6" break="yes" />
+                        non c'è posto<pc>.</pc><pc>&raquo;</pc>
+                    </s>
+                    <s>
+                        <del rend="overstrike">Qua</del> Gli operai<pc>,</pc> spinti dal biso<pc type="syllabication">_</pc>
+                        <lb n="7" facs="p138_l7" break="no" />
+                        gno<pc>,</pc> si sono occupati ni questi anni di problemi
+                        <lb n="8" facs="p138_l8" break="yes" />
+                        politici e hanno maturato<pc>.</pc>
+                    </s>
+                    <s>
+                        Questi sciocchi gio<pc type="syllabication">_</pc>
+                        <lb n="9" facs="p138_l9" break="no" />
+                        vani borghesi non hanno mai avuto <del rend="bisogno">bisogno</del> lo
+                        <lb n="10" facs="p138_l10" break="yes" />
+                        sprone di occuparsi di nulla<pc>,</pc> ma<pc>,</pc> come studenti<pc>,</pc>
+                        <lb n="11" facs="p138_l11" break="yes" />
+                        come classe colta<pc>,</pc> sono anzi stati aperti alla
+                        <lb n="12" facs="p138_l12" break="yes" />
+                        <del rend="overstrike">indifferenza fasc</del> propaganda fascista e <del rend="overstrike">par<pc type="syllabication">_</pc></del>
+                        <lb n="13" facs="p138_l13" break="yes" />
+                        <del rend="overstrike">to</del> il vuoto di questa riempiè tutto il loro vuoto
+                        <lb n="14" facs="p138_l14" break="yes" />
+                        intellettualmente pigri e moralmente scettici<pc>.</pc>
+                    </s>
+                    <s>
+                        <lb n="15" facs="p138_l15" break="yes" />
+                        <pc>-</pc> Noi <pc>-</pc> diceva uno del ieri <pc>-</pc> siamo degli
+                        <lb n="16" facs="p138_l16" break="yes" />
+                        sportivi <pc>-</pc> cioè<pc>,</pc> ni altre parole<pc>,</pc> preferiamo stancare
+                        <lb n="17" facs="p138_l17" break="yes" />
+                        le gambe che la testa<pc>.</pc>
+                    </s>
+                    <s>
+                        Non so qual filosofo ha
+                        <lb n="18" facs="p138_l18" break="yes" />
+                        osservato che nessuna fatica è grave come
+                        <lb n="19" facs="p138_l19" break="yes" />
+                        quella di pensare e questi ragazzi<pc>,</pc> senza essere
+                        <lb n="20" facs="p138_l20" break="yes" />
+                        filosofi<pc>,</pc> conoscono perfettamente il saggio afo<pc type="syllabication">_</pc>
+                        <lb n="21" facs="p138_l21" break="no" />
+                        risma<pc>.</pc>
+                    </s>
+                    <s>
+                        Siamo di fronte a quello che in termini
+                        <lb n="22" facs="p138_l22" break="yes" />
+                        marxisti si chiama fine di una classe economica<pc>.</pc>
+                    </s>
+                    <s>
+                        <seg xml:id="trs03">
+                            <metamark function="transposition" place="margin-left" rend="line"></metamark>
+                            <lb n="23" facs="p138_l23" break="yes" />
+                            Servitù ai propri ordini<pc>,</pc>
+                        </seg>
+                        <seg xml:id="trs04">
+                        titoli di studi <del rend="overstrike"><gap reason="illegible" quantity="3" unit="character"></gap></del>
+                        <lb n="24" facs="p138_l24" break="yes" />
+                        ottenuti senza merito<pc>,</pc> divertimenti e donne<pc>,</pc>
+                        </seg>
+                        <lb n="25" facs="p138_l25" break="yes" />
+                        guerra intesa sportivamente <add resp="#EA" place="below">perché sono indisciplinati</add> sono i tratti ca<pc type="syllabication">_</pc>
+                        <lb n="26" facs="p138_l26" break="yes" />
+                        ratteristici di questi giovani<pc>,</pc> che<pc>,</pc> senza accor<pc>_</pc>
+                        <lb n="27" facs="p138_l27" break="no" />
+                        gersene<pc>,</pc> corrono verso la propria rovina<pc>.</pc>
+                    </s>
+                    <s>
+                        Se lo
+                        <lb n="28" facs="p138_l28" break="yes" />
+                        capissero<pc>,</pc> ma hanno il cervello atrofizzato<pc>,</pc> si
+                        <lb n="29" facs="p138_l29" break="yes" />
+                        getterebbero nei partiti di destra o nel <choice><abbr type="initial">P<pc>.</pc> d<pc>.</pc> A<pc>.</pc></abbr><expan resp="#LP">Partito d'Azione</expan></choice>
+                        <lb n="30" facs="p138_l30" break="yes" />
+                        per salvare i propri capitali<pc>.</pc>
+                    </s>
+                    <s>
+                        Invece<pc>,</pc> quando noi
+                        <lb n="31" facs="p138_l31" break="yes" />
+                        parliamo loro<pc>,</pc> ridono allegramente<pc>:</pc> di chi<pc>?</pc>
+                    </s>
+                    <s>
+                        <lb n="32" facs="p138_l32" break="yes" />
+                        Di se stessi o di noi<pc>:</pc> non si capisce bene<pc>.</pc>
+                    </s>
+                    <s>
+                        <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> <del rend="overstrike">Con la decadenza</del> La religione è la forma
+                        <lb n="33" facs="p138_l33" break="yes" />
+                        più facile ed elementare di vita dello spirito<pc>;</pc>
+                        <lb n="34" facs="p138_l34" break="yes" />
+                        con la <del rend="overstrike">decad</del> fine della religione nella società
+                        <lb n="35" facs="p138_l35" break="yes" />
+                        borghese<pc>,</pc> <del rend="overstrike">questi g</del> a molti non è più rimasto
+                        <lb n="36" facs="p138_l36" break="yes" />
+                        nulla<pc>:</pc> si è tolto il passato senza sostituirlo con
+                        <lb n="37" facs="p138_l37" break="yes" />
+                        altro<pc>.</pc>
+                    </s>
                 </ab>
             </div>
         </body>
