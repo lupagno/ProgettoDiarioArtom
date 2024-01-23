@@ -480,4 +480,44 @@
             </div>
         </body>
     </text>
+
+    <standOff>
+        <listTranspose>
+            <transpose>
+                <ptr target="#trs02"/>
+                <ptr target="#trs01"/>
+            </transpose>
+            <transpose>
+                <ptr target="#trs04"/>
+                <ptr target="#trs03"/>
+            </transpose>
+        </listTranspose>
+
+        <listPerson>
+            <person xml:id="EA">
+                <persName>
+                    <forename>Emanuele</forename>
+                    <surname>Artom</surname>
+                </persName>
+                <sex value="M">Uomo</sex>
+                <birth>
+                    <date when="1915-06-23">23 giugno 1915</date>
+                    <placeName>
+                        <settlement type="municipality">Aosta</settlement>
+                        <region>Valle d'Aosta</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="1944-04-07">7 aprile 1944</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </death>
+                <note>È stato un partigiano e storico italiano di origine ebraica<pc>,</pc> combattente della Resistenza<pc>.</pc></note>
+            </person>
+        </listPerson>
+    </standOff>
 </TEI>
