@@ -9,11 +9,17 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">
-                    Codifica del diario di <persName ref="#EA">Emanuele Artom</persName>
+                    Diari di <persName ref="#EA">Emanuele Artom</persName>: versione elettronica
                 </title>
                 <author ref="#EA"> 
                     <persName>Emanuele Artom</persName> 
                 </author>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    Edizione realizzata a <date when="2023-12">dicembre 2023</date>
+                </edition>
                 <respStmt>
                     <resp>Codifica e trascrizione a cura di </resp>
                     <persName xml:id="LP">
@@ -21,12 +27,18 @@
                         <surname>Pagnesi</surname>
                     </persName>
                 </respStmt>
-            </titleStmt>
+                <respStmt>
+                    <resp>Supervisionato da </resp>
+                    
+                </respStmt>
+            </editionStmt>
+
             <publicationStmt>
                 <publisher>
                     <orgName ref="#unipi">Università di Pisa</orgName>
                 </publisher>
             </publicationStmt>
+            
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
