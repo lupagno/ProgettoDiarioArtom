@@ -29,26 +29,55 @@
                 </respStmt>
                 <respStmt>
                     <resp>Supervisionato da </resp>
-                    
+                    <persName xml:id="AMDG">
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
                 </respStmt>
             </editionStmt>
-
             <publicationStmt>
                 <publisher>
-                    <orgName ref="#unipi">Università di Pisa</orgName>
+                    <orgName>Università di Pisa</orgName>
                 </publisher>
+                <pubPlace>
+                    <settlement type="city">Pisa</settlement>
+                </pubPlace>
+                <address>
+                    <street>Lungarno Pacinotti 43</street>
+                    <postCode>56126</postCode>
+                    <settlement type="city">Pisa</settlement>
+                    <country key="IT">Italia</country>
+                </address>
+                <availability>
+                    <p>Testo con libero accesso</p>
+                </availability>
+                <date when="2023">2023</date>
             </publicationStmt>
-            
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country key="IT">Italia</country>
-                        <settlement type="town" ref="#milano">Milano</settlement>
-                        <institution>Centro di documentazione ebraica contemporanea</institution>
+                        <settlement type="city">Milano</settlement>
+                        <institution xml:id="CDEC">
+                            <orgName>Centro di Documentazione Ebraica Contemporanea</orgName>
+                        </institution>
+                        <repository role="archive" ref="https://digital-library.cdec.it/cdec-web/" >
+                            <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> Digital Library
+                        </repository>
                     </msIdentifier>
+                    phy
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <creation>
+                <date from="1943" to="1944">Dal 1943 al 1944</date>
+            </creation>
+            <langUsage>
+                <language ident="IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
 
     <facsimile>
