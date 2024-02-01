@@ -36,6 +36,7 @@
                     </persName>
                 </respStmt>
             </editionStmt>
+
             <publicationStmt>
                 <publisher>
                     <orgName>Università di Pisa</orgName>
@@ -54,6 +55,7 @@
                 </availability>
                 <date when="2023">2023</date>
             </publicationStmt>
+
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -65,11 +67,87 @@
                         <repository role="archive" ref="https://digital-library.cdec.it/cdec-web/" >
                             <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> Digital Library
                         </repository>
+                        <collection>
+                            Fondo <persName ref="#EA">Emanuele Artom</persName>
+                        </collection>
+                        <idno>Busta 1 - Fascicolo 9</idno>
                     </msIdentifier>
-                    phy
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+                                <support>
+                                    Per la stesura del manoscritto sono stati usati fogli di <material>carta</material> a righe oppure bianchi<pc>,</pc> liberamente ordinati<pc>.</pc>
+                                </support>
+                                <extent>
+                                    <note>
+                                        Il testo è composto da
+                                        <measure unit="pages" quantity="174">174 pagine</measure><pc>,</pc> di cui nel dettaglio<pc>:</pc> 
+                                        <measure unit="pages" quantity="1">1 pagina</measure> di introduzione alla lettera di <persName ref="#ASA">Amalia Segre Artom</persName><pc>,</pc> seguita da <measure unit="pages" quantity="1">1 pagina</measure> contenente la lettera in questione<pc>,</pc> <measure unit="pages" quantity="172">172 pagine</measure> di diario scritte da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc>
+                                    </note>
+                                </extent>
+                                <foliation>
+                                    Le pagine non presentano alcuna numerazione<pc>.</pc>
+                                </foliation>
+                                <collation>
+                                    L'autore ha realizzato il manoscritto utilizzando in maniera alternata una penna a inchiostro nero e una matita<pc>,</pc> scrivendo in corsivo dall'alto verso il basso e da destra verso sinistra<pc>.</pc>
+                                    Le pagine non sono rilegate e i fogli utilizzati sono spesso diversi tra loro per tipologia di carta<pc>,</pc> formato e rigatura<pc>.</pc>
+                                </collation>
+                                <condition>
+                                    Alcuni fogli presentano macchie<pc>,</pc> strappi o buchi<pc>.</pc> Nel complesso risultano tuttavia leggibili<pc>.</pc>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="10 30">
+                                    Le pagine sono scritte occupando quasi l'intero spazio a disposizione<pc>.</pc> Quando è presente la rigatura<pc>,</pc> l'autore cerca di rispettarla<pc>,</pc> anche se in alcuni casi preferisce andare oltre la stessa se la pagina è finita e mancano poche parole per completare la frase<pc>.</pc>
+                                    Le righe di testo vanno <pc>(</pc>circa<pc>)</pc> da un minimo di 10 a un massimo di 30<pc>.</pc>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <p>
+                                Le pagine del diario sono state scritte a mano da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc> La lettera che accompagna il diario è stata scritta da <persName ref="#ASA">Amalia Segre Artom</persName>
+                            </p>
+                        </handDesc>
+                        <accMat>
+                            Il diario è preceduto dalla lettera della madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> <persName ref="#AS">Amalia Segre Artom</persName><pc>,</pc> volta a dichiarare le volontà della donna di donare le pagine del diario al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> al momento della sua morte e a illustrare il contenuto del plico<pc>,</pc> a cui sono state aggiunte delle scansioni o riproduzioni a mano delle pagine più deteriorate<pc>.</pc>
+                            <pc>.</pc>
+                        </accMat>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            Diari scritti da <persName ref="#EA">Emanuele Artom</persName> tra il 1943 e il 1944<pc>.</pc> L'autore racconta la sua esperienza da partigiano<pc>.</pc>
+                        </origin>
+                        <acquisition>
+                            I diari sono stati consegnati al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> alla morte di <persName ref="ASA">Amalia Segre</persName><pc>,</pc> che li custodiva fino a quel momento<pc>.</pc>
+                        </acquisition>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Gli errori grammaticali sono stati corretti rispettando la grammatica<pc>.</pc></p>
+                </correction>
+                <punctuation>
+                    <p>I segni di punteggiatura sono stati mantenuti in maniera fedele al testo originale<pc>.</pc></p>
+                </punctuation>
+                <normalization>
+                    <p>È stato normalizzato l'utilizzo del carattere <pc>"</pc><gi>-</gi><pc>"</pc> al posto del doppio trattino basso per indicare la sillabazione a fine riga<pc>.</pc> Nella trascrizione sono state normalizzate le due trasposizioni indicate dall'autore tramite delle linee o frecce disegnate a penna<pc>.</pc></p>
+                </normalization>
+                <hyphenation>
+                    <p>La sillabazione delle parole a fine riga è stata mantenuta<pc>.</pc> Nel tag <pc>"</pc><gi>lb</gi><pc>"</pc> è presente un attributo che indica se la riga inizia con una parola intera o spezzata<pc>.</pc></p>
+                </hyphenation>
+                <interpretation>
+                    <p>Le abbreviazioni dei nomi e delle organizzazioni presenti nel testo sono state sciolte<pc>.</pc></p>
+                </interpretation>
+                <segmentation>
+                    <p>Le pagine sono racchiuse nel generico tag <pc>"</pc><gi>ab</gi><pc>"</pc><pc>.</pc> Il testo è diviso per periodi tramite il tag <pc>"</pc><gi>s</gi><pc>"</pc><pc>.</pc></p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+
         <profileDesc>
             <creation>
                 <date from="1943" to="1944">Dal 1943 al 1944</date>
