@@ -273,159 +273,159 @@
     <text xml:lang="it">
         <body>
             <div type="diary">
-                <pb n="1" facs="p136" />
+                <pb n="1" facs="#p136" />
                 <ab>
                     <s>
-                        <lb n="1" facs="p136_l1" break="yes" />
-                        fino alla base di Luigi<pc>.</pc>
+                        <lb n="1" facs="#p136_l1" break="yes" />
+                        fino alla base di <persName ref="#Lu">Luigi</persName><pc>.</pc>
                     </s>
                     <s>
                         Arrivano i Tedeschi
-                        <lb n="2" facs="p136_l2" break="yes" />
+                        <lb n="2" facs="#p136_l2" break="yes" />
                         e gli altri lo lasciano sulla porta<pc>.</pc>
                     </s>
                     <s>
                         Si sente
-                        <lb n="3" facs="p136_l3" break="yes" />
+                        <lb n="3" facs="#p136_l3" break="yes" />
                         svenire<pc>,</pc> ma fa uno sforzo e si nasconde
-                        <lb n="4" facs="p136_l4" break="yes" />
+                        <lb n="4" facs="#p136_l4" break="yes" />
                         sotto il letto<pc>.</pc> Quando entravano i Tedeschi
-                        <lb n="5" facs="p136_l5" break="yes" />
+                        <lb n="5" facs="#p136_l5" break="yes" />
                         aveva ancora le scarpe fuori<pc>.</pc>
                     </s>
                     <s>
                         Un capitano
-                        <lb n="6" facs="p136_l6" break="yes" />
+                        <lb n="6" facs="#p136_l6" break="yes" />
                         e un tenente fanno il loro quartiere generale
-                        <lb n="7" facs="p136_l7" break="yes" />
+                        <lb n="7" facs="#p136_l7" break="yes" />
                         per 3 ore<pc>:</pc> <del rend="overstrike">Se s</del> ricevono notizie<pc>;</pc> impartiscono
-                        <lb n="8" facs="p136_l8" break="yes" />
+                        <lb n="8" facs="#p136_l8" break="yes" />
                         ordini<pc>.</pc>
                     </s>
                     <s>
                         Poi partono dopo avere incendiato
-                        <lb n="9" facs="p136_l9" break="yes" />
+                        <lb n="9" facs="#p136_l9" break="yes" />
                         la paglia<pc>.</pc>
                     </s>
                     <s>
                         Sotto la paglia c'è un fumo d'in
-                        <lb n="10" facs="p136_l10" break="no" />
+                        <lb n="10" facs="#p136_l10" break="no" />
                         ferno<pc>.</pc>
                     </s>
                     <s>
-                        Zama si morde la lingua per non
-                        <lb n="11" facs="p136_l11" break="yes" />
+                        <persName ref="Za">Zama</persName> si morde la lingua per non
+                        <lb n="11" facs="#p136_l11" break="yes" />
                         tossire<pc>.</pc>
                     </s>
                     <s>
                         Quando <del rend="overstrike">non</del> non resiste più e si sente
-                        <lb n="12" facs="p136_l12" break="yes" />
+                        <lb n="12" facs="#p136_l12" break="yes" />
                         soffocare esce con la rivoltella <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> pugno<pc>,</pc>
-                        <lb n="13" facs="p136_l13" break="yes" />
+                        <lb n="13" facs="#p136_l13" break="yes" />
                         senza sapere se i <choice><abbr type="suspension">Ted</abbr><expan resp="#LP">Ted<ex>eschi</ex></expan></choice> sono già lontani<pc>.</pc>
                     </s>
                     <s>
                         La
-                        <lb n="14" facs="p136_l14" break="yes" />
+                        <lb n="14" facs="#p136_l14" break="yes" />
                         neve <add resp="#EA" place="above">dei tetti</add> si scioglie al calore e l'acqua scende
-                        <lb n="15" facs="p136_l15" break="yes" />
+                        <lb n="15" facs="#p136_l15" break="yes" />
                         a catinelle<pc>.</pc>
                     </s>
                     <s>
                         I <choice><abbr type="suspension">Ted</abbr><expan resp="#LP">Ted<ex>eschi</ex></expan></choice> si stanno allontanando<pc>,</pc>
-                        <lb n="16" facs="p136_l16" break="yes" />
+                        <lb n="16" facs="#p136_l16" break="yes" />
                         ma sono appena usciti<pc>.</pc>
                     </s>
                     <s>
                         Recupera una coperta
-                        <lb n="17" facs="p136_l17" break="yes" />
+                        <lb n="17" facs="#p136_l17" break="yes" />
                         bruciacchiata e ripara nella grangia vicina<pc>,</pc>
-                        <lb n="18" facs="p136_l18" break="yes" />
+                        <lb n="18" facs="#p136_l18" break="yes" />
                         dove si ferma altre 3 ore<pc>.</pc>
                     </s>
                     <s>
                         Poi sente passare
-                        <lb n="19" facs="p136_l19" break="yes" />
+                        <lb n="19" facs="#p136_l19" break="yes" />
                         uno vicino e chiama aiuto<pc>.</pc>
                     </s>
                     <s>
                         Lo portano
-                        <lb n="20" facs="p136_l20" break="yes" />
+                        <lb n="20" facs="#p136_l20" break="yes" />
                         <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> un posto più riparato<pc>.</pc>
                     </s>
                     <s>
-                        Gina, credendo che
-                        <lb n="21" facs="p136_l21" break="yes" />
+                        <persName ref="Gi">Gina</persName>, credendo che
+                        <lb n="21" facs="#p136_l21" break="yes" />
                         stesse per morire e per evitare che i Tedeschi
-                        <lb n="22" facs="p136_l22" break="yes" />
+                        <lb n="22" facs="#p136_l22" break="yes" />
                         lo prendano gli fa 3 iniezioni di morfina
-                        <lb n="23" facs="p136_l23" break="yes" />
+                        <lb n="23" facs="#p136_l23" break="yes" />
                         per ucciderlo<pc>,</pc> ma riesce a superare anche
-                        <lb n="24" facs="p136_l24" break="yes" />
+                        <lb n="24" facs="#p136_l24" break="yes" />
                         questa prova<pc>.</pc> 
                     </s>
                     <s>
                         Per 4 volte in un giorno sfiora la
-                        <lb n="25" facs="p136_l25" break="yes" />
+                        <lb n="25" facs="#p136_l25" break="yes" />
                         morte<pc>.</pc>
                     </s>
                 </ab>
-                <pb n="2" facs="p137" />
+                <pb n="2" facs="#p137" />
                 <ab>
                     <lb facs="p137_date" break="yes" />
                     <date when="1944-01-26">26 <choice><abbr type="suspension">genn<pc>.</pc></abbr><expan resp="#LP">genn<ex>aio</ex></expan></choice></date>
                     <s>
-                        <lb n="1" facs="p137_l1" break="yes" />
+                        <lb n="1" facs="#p137_l1" break="yes" />
                         Le vicende di ieri non ebbi ieri sera tempo di
-                        <lb n="2" facs="p137_l2" break="yes" />
+                        <lb n="2" facs="#p137_l2" break="yes" />
                         narrarle con precisione<pc>;</pc> bisogna che le riferisca
-                        <lb n="3" facs="p137_l3" break="yes" />
+                        <lb n="3" facs="#p137_l3" break="yes" />
                         ora<pc>,</pc> specie un<del rend="overstrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> colloquio con unb giovane studente di
-                        <lb n="4" facs="p137_l4" break="yes" />
+                        <lb n="4" facs="#p137_l4" break="yes" />
                         medicina<pc>,</pc> che ha voluto incontrarsi con me e che ci
-                        <lb n="5" facs="p137_l5" break="yes" />
+                        <lb n="5" facs="#p137_l5" break="yes" />
                         aiuterà molto<pc>:</pc> porterà messaggi e pacchi da e a <placeName ref="#TO">To<pc type="syllabication">_</pc>
-                        <lb n="6" facs="p137_l6" break="no" />
+                        <lb n="6" facs="#p137_l6" break="no" />
                         rino</placeName><pc>,</pc> ritirerà malati nella sua casa e li curerà<pc>,</pc>
-                        <lb n="7" facs="p137_l7" break="yes" />
+                        <lb n="7" facs="#p137_l7" break="yes" />
                         ci <del rend="overstrike">dara</del> procurerà 30 moschetti<pc>.</pc>
                     </s>
                     <s>
                         Non è poco<pc>,</pc> ma
-                        <lb n="8" facs="p137_l8" break="yes" />
+                        <lb n="8" facs="#p137_l8" break="yes" />
                         quando gli ho <choice><sic>chieso</sic><corr resp="#LP">chiesto</corr></choice> le sue opinioni politiche<pc>,</pc> mi
-                        <lb n="9" facs="p137_l9" break="yes" />
+                        <lb n="9" facs="#p137_l9" break="yes" />
                         ha risposto<pc>:</pc> non ne ho<pc>.</pc>
                     </s>
                     <s>
                         Allora gli ho ripetuto quanto
-                        <lb n="10" facs="p137_l10" break="yes" />
+                        <lb n="10" facs="#p137_l10" break="yes" />
                         da due settimane vado ripetendo a tutti i miei
-                        <lb n="11" facs="p137_l11" break="yes" />
+                        <lb n="11" facs="#p137_l11" break="yes" />
                         uomini<pc>:</pc>
                     </s>
                     <seg xml:id="trs01">
                         <metamark function="transposition" place="margin-left" rend="line"></metamark>
                         <s>
                             <del rend="overstrike">se non hai opinioni po</del> il Fascismo non
-                            <lb n="14" facs="p137_l12" break="yes" />
+                            <lb n="14" facs="#p137_l12" break="yes" />
                             è una tegola cadutaci per caso sulla testa<pc>;</pc> è
-                            <lb n="15" facs="p137_l13" break="yes" />
+                            <lb n="15" facs="#p137_l13" break="yes" />
                             un<del rend="ovestrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> effetto della apoliticità e quindi della
-                            <lb n="16" facs="p137_l14" break="yes" />
+                            <lb n="16" facs="#p137_l14" break="yes" />
                             immoralità civile del Popolo italiano<pc>.</pc>
                         </s>
                         <s>
                             Se non
-                            <lb n="17" facs="p137_l15" break="yes" />
+                            <lb n="17" facs="#p137_l15" break="yes" />
                             ci facciamo una <del>cultura politica<pc>,</pc> ricadrete</del> co<pc type="syllabication">_</pc>
-                            <lb n="18" facs="p137_l16" break="no" />
+                            <lb n="18" facs="#p137_l16" break="no" />
                             scienza politica<pc>,</pc> non sapremo governarci e un
-                            <lb n="19" facs="p137_l17" break="yes" />
+                            <lb n="19" facs="#p137_l17" break="yes" />
                             popolo che non sa governarsi cade necessaria<pc type="syllabication">_</pc>
-                            <lb n="20" facs="p137_l18" break="no" />
+                            <lb n="20" facs="#p137_l18" break="no" />
                             mente sotto il dominio straniero o sotto la
-                            <lb n="21" facs="p137_l19" break="yes" />
+                            <lb n="21" facs="#p137_l19" break="yes" />
                             dittatura di uno dei suoi<pc>.</pc>
                         </s>
                             <del>Non ci avevi</del>
@@ -433,166 +433,166 @@
                     <seg xml:id="trs02">
                         <metamark function="transposition" place="margin-left" rend="line"></metamark>
                         <s>
-                            <lb n="12" facs="p137_l20" break="yes" />
+                            <lb n="12" facs="#p137_l20" break="yes" />
                             Un giovane russo o americano della tua età
-                            <lb n="13" facs="p137_l21" break="yes" />
+                            <lb n="13" facs="#p137_l21" break="yes" />
                             <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> non mi risponderebbe certo come te<pc>.</pc>
                         </s>
                         <del rend="overstrike">Non ci</del>
                     </seg>
                     <s>
-                        <lb n="22" facs="p137_l22" break="yes" />
+                        <lb n="22" facs="#p137_l22" break="yes" />
                         Ho ragione<pc>?</pc> Si ha ammesso<pc>.</pc> <pc>-</pc> E non ci avevi
-                        <lb n="23" facs="p137_l23" break="yes" />
+                        <lb n="23" facs="#p137_l23" break="yes" />
                         mai pensato<pc>?</pc> <del rend="overstrike">Come</del><del rend="overstrike">Come crede</del> <add resp="#EA" place="above">Ti pare</add> che uno come me
-                        <lb n="24" facs="p137_l24" break="yes" />
+                        <lb n="24" facs="#p137_l24" break="yes" />
                         pensi a queste cose<pc>?</pc> Ma mi ha promesso di occu<pc type="syllabication">_</pc>
-                        <lb n="25" facs="p137_l25" break="no" />
+                        <lb n="25" facs="#p137_l25" break="no" />
                         parsi seriamente di queste cose<pc>.</pc>
                     </s>
                     <s>
-                        <lb n="26" facs="p137_l26" break="yes" />
-                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> P<pc>.</pc> e con
-                        <lb n="27" facs="p137_l27" break="yes" />
-                        <choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice><pc>.</pc> ieri pomeriggio<pc>.</pc>
+                        <lb n="26" facs="#p137_l26" break="yes" />
+                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> <persName ref="#Pal"><choice><abbr type="suspension">P</abbr><expan resp="#LP">P<ex>altrinieri</ex></expan></choice></persName><pc>.</pc> e con
+                        <lb n="27" facs="#p137_l27" break="yes" />
+                        <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>.</pc> ieri pomeriggio<pc>.</pc>
                     </s>
                     <s>
                         Come avevo scritto in uno
-                        <lb n="28" facs="p137_l28" break="yes" />
-                        dei fogli distrutti<pc>,</pc> <choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice><pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
-                        <lb n="29" facs="p137_l29" break="yes" />
+                        <lb n="28" facs="#p137_l28" break="yes" />
+                        dei fogli distrutti<pc>,</pc> <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
+                        <lb n="29" facs="#p137_l29" break="yes" />
                         quando fummo presentati e seppe che ero <choice><abbr type="suspension">comm</abbr><expan resp="#LP">commm<ex>issario</ex></expan></choice>
-                        <lb n="30" facs="p137_l30" break="yes" />
+                        <lb n="30" facs="#p137_l30" break="yes" />
                         disse ridendo<pc>:</pc> ma noi non li vogliamo i politici
-                        <lb n="31" facs="p137_l31" break="yes" />
+                        <lb n="31" facs="#p137_l31" break="yes" />
                         e <del rend="overstrike">tutto</del> durante la conversazione tutti e tre con<pc type="syllabication">_</pc>
-                        <lb n="32" facs="p137_l32" break="yes" />
+                        <lb n="32" facs="#p137_l32" break="yes" />
                         tinuavano a ridere scioccamente<pc>.</pc>
                     </s>
                     <s>
                         Domani il
-                        <lb n="33" facs="p137_l33" break="yes" />
-                        colonnello e io vedremo Sergio<pc>.</pc>
+                        <lb n="33" facs="#p137_l33" break="yes" />
+                        colonnello e io vedremo <persName ref="Ser">Sergio</persName><pc>.</pc>
                     </s>
                     <s>
                         Gli diremo
-                        <lb n="34" facs="p137_l34" break="yes" />
-                        chiaramente<pc>:</pc> il <choice><abbr type="suspension">Fr<pc>.</pc></abbr><expan resp="#LP">Fr<ex>onte</ex></expan></choice> <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ionale</ex></expan></choice> non riconosce gli
+                        <lb n="34" facs="#p137_l34" break="yes" />
+                        chiaramente<pc>:</pc> il <orgName ref="#FN"><choice><abbr type="suspension">Fr<pc>.</pc></abbr><expan resp="#LP">Fr<ex>onte</ex></expan></choice> <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ionale</ex></expan></choice></orgName> non riconosce gli
                     </s>
                 </ab>
-                <pb n="3" facs="p138" />
+                <pb n="3" facs="#p138" />
                 <ab>
                     <s>
-                        <lb n="1" facs="p138_l1" break="yes" />
+                        <lb n="1" facs="#p138_l1" break="yes" />
                         azzurri: se tu sei azzurro, non puoi stare con noi<pc>.</pc>
                     </s>
                     <s>
-                        <lb n="2" facs="p138_l2" break="yes" />
+                        <lb n="2" facs="#p138_l2" break="yes" />
                         Dici di essere apolitico, ma invece sei badogliano<pc>.</pc>
                     </s>
                     <s>
-                        <lb n="3" facs="p138_l3" break="yes" />
+                        <lb n="3" facs="#p138_l3" break="yes" />
                         D'altra parte persuaditi che sei indietro di 40
-                        <lb n="4" facs="p138_l4" break="yes" />
+                        <lb n="4" facs="#p138_l4" break="yes" />
                         anni<pc>:</pc> democrazia e comunismo<pc>:</pc> questo è l'avve<pc type="syllabication">_</pc>
-                        <lb n="5" facs="p138_l5" break="no" />
+                        <lb n="5" facs="#p138_l5" break="no" />
                         nire del mondo<pc>:</pc> per le monarchie e i militaristi
-                        <lb n="6" facs="p138_l6" break="yes" />
+                        <lb n="6" facs="#p138_l6" break="yes" />
                         non c'è posto<pc>.</pc><pc>&raquo;</pc>
                     </s>
                     <s>
                         <del rend="overstrike">Qua</del> Gli operai<pc>,</pc> spinti dal biso<pc type="syllabication">_</pc>
-                        <lb n="7" facs="p138_l7" break="no" />
-                        gno<pc>,</pc> si sono occupati ni questi anni di problemi
-                        <lb n="8" facs="p138_l8" break="yes" />
+                        <lb n="7" facs="#p138_l7" break="no" />
+                        gno<pc>,</pc> si sono occupati <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> questi anni di problemi
+                        <lb n="8" facs="#p138_l8" break="yes" />
                         politici e hanno maturato<pc>.</pc>
                     </s>
                     <s>
                         Questi sciocchi gio<pc type="syllabication">_</pc>
-                        <lb n="9" facs="p138_l9" break="no" />
+                        <lb n="9" facs="#p138_l9" break="no" />
                         vani borghesi non hanno mai avuto <del rend="bisogno">bisogno</del> lo
-                        <lb n="10" facs="p138_l10" break="yes" />
+                        <lb n="10" facs="#p138_l10" break="yes" />
                         sprone di occuparsi di nulla<pc>,</pc> ma<pc>,</pc> come studenti<pc>,</pc>
-                        <lb n="11" facs="p138_l11" break="yes" />
+                        <lb n="11" facs="#p138_l11" break="yes" />
                         come classe colta<pc>,</pc> sono anzi stati aperti alla
-                        <lb n="12" facs="p138_l12" break="yes" />
+                        <lb n="12" facs="#p138_l12" break="yes" />
                         <del rend="overstrike">indifferenza fasc</del> propaganda fascista e <del rend="overstrike">par<pc type="syllabication">_</pc></del>
-                        <lb n="13" facs="p138_l13" break="yes" />
+                        <lb n="13" facs="#p138_l13" break="yes" />
                         <del rend="overstrike">to</del> il vuoto di questa riempiè tutto il loro vuoto
-                        <lb n="14" facs="p138_l14" break="yes" />
+                        <lb n="14" facs="#p138_l14" break="yes" />
                         intellettualmente pigri e moralmente scettici<pc>.</pc>
                     </s>
                     <s>
-                        <lb n="15" facs="p138_l15" break="yes" />
+                        <lb n="15" facs="#p138_l15" break="yes" />
                         <pc>-</pc> Noi <pc>-</pc> diceva uno del ieri <pc>-</pc> siamo degli
-                        <lb n="16" facs="p138_l16" break="yes" />
-                        sportivi <pc>-</pc> cioè<pc>,</pc> ni altre parole<pc>,</pc> preferiamo stancare
-                        <lb n="17" facs="p138_l17" break="yes" />
+                        <lb n="16" facs="#p138_l16" break="yes" />
+                        sportivi <pc>-</pc> cioè<pc>,</pc> <choice><sic>ni</sic><corr resp="#LP">in</corr></choice> altre parole<pc>,</pc> preferiamo stancare
+                        <lb n="17" facs="#p138_l17" break="yes" />
                         le gambe che la testa<pc>.</pc>
                     </s>
                     <s>
                         Non so qual filosofo ha
-                        <lb n="18" facs="p138_l18" break="yes" />
+                        <lb n="18" facs="#p138_l18" break="yes" />
                         osservato che nessuna fatica è grave come
-                        <lb n="19" facs="p138_l19" break="yes" />
+                        <lb n="19" facs="#p138_l19" break="yes" />
                         quella di pensare e questi ragazzi<pc>,</pc> senza essere
-                        <lb n="20" facs="p138_l20" break="yes" />
+                        <lb n="20" facs="#p138_l20" break="yes" />
                         filosofi<pc>,</pc> conoscono perfettamente il saggio afo<pc type="syllabication">_</pc>
-                        <lb n="21" facs="p138_l21" break="no" />
+                        <lb n="21" facs="#p138_l21" break="no" />
                         risma<pc>.</pc>
                     </s>
                     <s>
                         Siamo di fronte a quello che in termini
-                        <lb n="22" facs="p138_l22" break="yes" />
+                        <lb n="22" facs="#p138_l22" break="yes" />
                         marxisti si chiama fine di una classe economica<pc>.</pc>
                     </s>
                     <s>
                         <seg xml:id="trs03">
                             <metamark function="transposition" place="margin-left" rend="line"></metamark>
-                            <lb n="23" facs="p138_l23" break="yes" />
+                            <lb n="23" facs="#p138_l23" break="yes" />
                             Servitù ai propri ordini<pc>,</pc>
                         </seg>
                         <seg xml:id="trs04">
                         titoli di studi <del rend="overstrike"><gap reason="illegible" quantity="3" unit="character"></gap></del>
-                        <lb n="24" facs="p138_l24" break="yes" />
+                        <lb n="24" facs="#p138_l24" break="yes" />
                         ottenuti senza merito<pc>,</pc> divertimenti e donne<pc>,</pc>
                         </seg>
-                        <lb n="25" facs="p138_l25" break="yes" />
+                        <lb n="25" facs="#p138_l25" break="yes" />
                         guerra intesa sportivamente <add resp="#EA" place="below">perché sono indisciplinati</add> sono i tratti ca<pc type="syllabication">_</pc>
-                        <lb n="26" facs="p138_l26" break="yes" />
+                        <lb n="26" facs="#p138_l26" break="yes" />
                         ratteristici di questi giovani<pc>,</pc> che<pc>,</pc> senza accor<pc>_</pc>
-                        <lb n="27" facs="p138_l27" break="no" />
+                        <lb n="27" facs="#p138_l27" break="no" />
                         gersene<pc>,</pc> corrono verso la propria rovina<pc>.</pc>
                     </s>
                     <s>
                         Se lo
-                        <lb n="28" facs="p138_l28" break="yes" />
+                        <lb n="28" facs="#p138_l28" break="yes" />
                         capissero<pc>,</pc> ma hanno il cervello atrofizzato<pc>,</pc> si
-                        <lb n="29" facs="p138_l29" break="yes" />
-                        getterebbero nei partiti di destra o nel <choice><abbr type="initial">P<pc>.</pc> d<pc>.</pc> A<pc>.</pc></abbr><expan resp="#LP">Partito d'Azione</expan></choice>
-                        <lb n="30" facs="p138_l30" break="yes" />
+                        <lb n="29" facs="#p138_l29" break="yes" />
+                        getterebbero nei partiti di destra o nel <orgName ref="#PdA"><choice><abbr type="initial">P<pc>.</pc> d<pc>.</pc> A<pc>.</pc></abbr><expan resp="#LP">Partito d'Azione</expan></choice></orgName>
+                        <lb n="30" facs="#p138_l30" break="yes" />
                         per salvare i propri capitali<pc>.</pc>
                     </s>
                     <s>
                         Invece<pc>,</pc> quando noi
-                        <lb n="31" facs="p138_l31" break="yes" />
+                        <lb n="31" facs="#p138_l31" break="yes" />
                         parliamo loro<pc>,</pc> ridono allegramente<pc>:</pc> di chi<pc>?</pc>
                     </s>
                     <s>
-                        <lb n="32" facs="p138_l32" break="yes" />
+                        <lb n="32" facs="#p138_l32" break="yes" />
                         Di se stessi o di noi<pc>:</pc> non si capisce bene<pc>.</pc>
                     </s>
                     <s>
                         <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> <del rend="overstrike">Con la decadenza</del> La religione è la forma
-                        <lb n="33" facs="p138_l33" break="yes" />
+                        <lb n="33" facs="#p138_l33" break="yes" />
                         più facile ed elementare di vita dello spirito<pc>;</pc>
-                        <lb n="34" facs="p138_l34" break="yes" />
+                        <lb n="34" facs="#p138_l34" break="yes" />
                         con la <del rend="overstrike">decad</del> fine della religione nella società
-                        <lb n="35" facs="p138_l35" break="yes" />
+                        <lb n="35" facs="#p138_l35" break="yes" />
                         borghese<pc>,</pc> <del rend="overstrike">questi g</del> a molti non è più rimasto
-                        <lb n="36" facs="p138_l36" break="yes" />
+                        <lb n="36" facs="#p138_l36" break="yes" />
                         nulla<pc>:</pc> si è tolto il passato senza sostituirlo con
-                        <lb n="37" facs="p138_l37" break="yes" />
+                        <lb n="37" facs="#p138_l37" break="yes" />
                         altro<pc>.</pc>
                     </s>
                 </ab>
