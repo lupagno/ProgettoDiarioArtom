@@ -65,7 +65,7 @@
                             <orgName>Centro di Documentazione Ebraica Contemporanea</orgName>
                         </institution>
                         <repository role="archive" ref="https://digital-library.cdec.it/cdec-web/" >
-                            <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> Digital Library
+                            <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName>
                         </repository>
                         <collection>
                             Fondo <persName ref="#EA">Emanuele Artom</persName>
@@ -109,7 +109,7 @@
                             </p>
                         </handDesc>
                         <accMat>
-                            Il diario è preceduto dalla lettera della madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> <persName ref="#AS">Amalia Segre Artom</persName><pc>,</pc> volta a dichiarare le volontà della donna di donare le pagine del diario al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> al momento della sua morte e a illustrare il contenuto del plico<pc>,</pc> a cui sono state aggiunte delle scansioni o riproduzioni a mano delle pagine più deteriorate<pc>.</pc>
+                            Il diario è preceduto dalla lettera della madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> <persName ref="#ASA">Amalia Segre Artom</persName><pc>,</pc> volta a dichiarare le volontà della donna di donare le pagine del diario al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> al momento della sua morte e a illustrare il contenuto del plico<pc>,</pc> a cui sono state aggiunte delle scansioni o riproduzioni a mano delle pagine più deteriorate<pc>.</pc>
                             <pc>.</pc>
                         </accMat>
                     </physDesc>
@@ -118,7 +118,7 @@
                             Diari scritti da <persName ref="#EA">Emanuele Artom</persName> tra il 1943 e il 1944<pc>.</pc> L'autore racconta la sua esperienza da partigiano<pc>.</pc>
                         </origin>
                         <acquisition>
-                            I diari sono stati consegnati al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> alla morte di <persName ref="ASA">Amalia Segre</persName><pc>,</pc> che li custodiva fino a quel momento<pc>.</pc>
+                            I diari sono stati consegnati al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> alla morte di <persName ref="#ASA">Amalia Segre</persName><pc>,</pc> che li custodiva fino a quel momento<pc>.</pc>
                         </acquisition>
                     </history>
                 </msDesc>
@@ -452,7 +452,7 @@
                     </s>
                     <s>
                         <lb n="26" facs="#p137_l26" break="yes" />
-                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> <persName ref="#Pal"><choice><abbr type="suspension">P</abbr><expan resp="#LP">P<ex>altrinieri</ex></expan></choice></persName><pc>.</pc> e con
+                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> <persName><choice><abbr type="suspension">P</abbr><expan resp="#LP">P<ex>altrinieri</ex></expan></choice></persName><pc>.</pc> e con
                         <lb n="27" facs="#p137_l27" break="yes" />
                         <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>.</pc> ieri pomeriggio<pc>.</pc>
                     </s>
@@ -612,6 +612,15 @@
             </transpose>
         </listTranspose>
 
+        <listOrg>
+            <org xml:id="FN">
+                <orgName>Fronte Nazionale</orgName>
+                <desc>
+                    Nel manoscritto appare evidente che si tratta di un movimento di resistenza al nazifascismo. Potrebbe identificarsi col <orgName>Comitato di Liberazione Nazionale</orgName>, che operò come organismo clandestino durante la Resistenza ed ebbe per delega poteri di governo nei giorni di insurrezione nazionale.
+                </desc>
+            </org>
+        </listOrg>
+
         <listPerson>
             <person xml:id="EA">
                 <persName>
@@ -635,7 +644,47 @@
                         <country key="IT">Italia</country>
                     </placeName>
                 </death>
-                <note>È stato un partigiano e storico italiano di origine ebraica<pc>,</pc> combattente della Resistenza<pc>.</pc></note>
+                <note>
+                    È stato un partigiano e storico italiano di origine ebraica<pc>,</pc> combattente della Resistenza<pc>.</pc>
+                </note>
+            </person>
+            <person xml:id="ASA">
+                <persName>
+                    <forename>Amalia</forename>
+                    <surname>Segre Artom</surname>
+                </persName>
+                <sex value="F">Donna</sex>
+                <birth>
+                    <date when="1890">1890</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="1972-10-09">9 ottobre 1972</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </death>
+                <note>
+                    Madre di <persName ref="#EA">Emanuele Artom</persName>, ha custodito i diari del figlio<pc>,</pc> per poi donarli al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> alla sua morte<pc>.</pc>
+                </note>
+            </person>
+            <person xml:id="Gi">
+                <persName>Gina</persName>
+            </person>
+            <person xml:id="Lu">
+                <persName>Luigi</persName>
+            </person>
+            <person xml:id="Ser">
+                <persName>Sergio</persName>
+            </person>
+            <person xml:id="Za">
+                <persName>Zama</persName>
             </person>
         </listPerson>
     </standOff>
