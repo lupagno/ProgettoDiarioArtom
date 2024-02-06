@@ -105,12 +105,11 @@
                         </objectDesc>
                         <handDesc hands="2">
                             <p>
-                                Le pagine del diario sono state scritte a mano da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc> La lettera che accompagna il diario è stata scritta da <persName ref="#ASA">Amalia Segre Artom</persName>
+                                Le pagine del diario sono state scritte a mano da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc> La lettera che accompagna il diario è stata scritta da <persName ref="#ASA">Amalia Segre Artom</persName><pc>.</pc>
                             </p>
                         </handDesc>
                         <accMat>
                             Il diario è preceduto dalla lettera della madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> <persName ref="#ASA">Amalia Segre Artom</persName><pc>,</pc> volta a dichiarare le volontà della donna di donare le pagine del diario al <orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</orgName> al momento della sua morte e a illustrare il contenuto del plico<pc>,</pc> a cui sono state aggiunte delle scansioni o riproduzioni a mano delle pagine più deteriorate<pc>.</pc>
-                            <pc>.</pc>
                         </accMat>
                     </physDesc>
                     <history>
@@ -159,8 +158,8 @@
     </teiHeader>
 
     <facsimile>
-        <surface xml:id="p136">
-            <graphic url='pg_136.jpeg' width='747px' height='1024px' />
+        <surface xml:id="p136" n="136">
+            <graphic url='img/pg_136.jpeg' width='747px' height='1024px' />
             <zone ulx="70" uly="55" lrx="701" lry="99" xml:id="p136_l1" />
             <zone ulx="73" uly="99" lrx="667" lry="134" xml:id="p136_l2" />
             <zone ulx="89" uly="147" lrx="647" lry="176" xml:id="p136_l3" />
@@ -188,8 +187,8 @@
             <zone ulx="526" uly="982" lrx="610" lry="1005" xml:id="p136_l25" />
         </surface>
 
-        <surface xml:id="p137">
-            <graphic url='pg_137.jpeg' width='679px' height='1024px' />
+        <surface xml:id="p137" n="137">
+            <graphic url='img/pg_137.jpeg' width='679px' height='1024px' />
             <zone ulx="494" uly="14" lrx="585" lry="38" xml:id="p137_date"/>
             <zone ulx="28" uly="31" lrx="608" lry="61" xml:id="p137_l1" />
             <zone ulx="29" uly="59" lrx="610" lry="86" xml:id="p137_l2" />
@@ -227,8 +226,8 @@
             <zone ulx="54" uly="944" lrx="613" lry="986" xml:id="p137_l34" />
         </surface>
 
-        <surface xml:id="p138">
-            <graphic url='pg_138.jpeg' width='676px' height='1024px' />
+        <surface xml:id="p138" n="138">
+            <graphic url='img/pg_138.jpeg' width='676px' height='1024px' />
             <zone ulx="25" uly="21" lrx="634" lry="42" xml:id="p138_l1" />
             <zone ulx="28" uly="46" lrx="639" lry="69" xml:id="p138_l2" />
             <zone ulx="28" uly="68" lrx="623" lry="89" xml:id="p138_l3" />
@@ -273,7 +272,7 @@
     <text xml:lang="it">
         <body>
             <div type="diary">
-                <pb n="1" facs="#p136" />
+                <pb n="136" facs="#p136" />
                 <ab>
                     <s>
                         <lb n="1" facs="#p136_l1" break="yes" />
@@ -370,7 +369,7 @@
                         morte<pc>.</pc>
                     </s>
                 </ab>
-                <pb n="2" facs="#p137" />
+                <pb n="137" facs="#p137" />
                 <ab>
                     <lb facs="p137_date" break="yes" />
                     <date when="1944-01-26">26 <choice><abbr type="suspension">genn<pc>.</pc></abbr><expan resp="#LP">genn<ex>aio</ex></expan></choice></date>
@@ -480,7 +479,7 @@
                         chiaramente<pc>:</pc> il <orgName ref="#FN"><choice><abbr type="suspension">Fr<pc>.</pc></abbr><expan resp="#LP">Fr<ex>onte</ex></expan></choice> <choice><abbr type="suspension">Naz<pc>.</pc></abbr><expan resp="#LP">Naz<ex>ionale</ex></expan></choice></orgName> non riconosce gli
                     </s>
                 </ab>
-                <pb n="3" facs="#p138" />
+                <pb n="138" facs="#p138" />
                 <ab>
                     <s>
                         <lb n="1" facs="#p138_l1" break="yes" />

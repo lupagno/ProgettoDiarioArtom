@@ -157,10 +157,11 @@
                 <xsl:value-of select="@n"/>
             </xsl:variable>
             <xsl:element name="div">
-                <xsl:attribute name="class">pagina-body</xsl:attribute>
+                <xsl:attribute name="class">pagina-n-cont</xsl:attribute>
+                <xsl:attribute name="id">p<xsl:value-of select="$pagina"/></xsl:attribute>
                 <xsl:element name="h2">Pagina <xsl:value-of select="$pagina"/></xsl:element>
                 <xsl:element name="div">
-                    <xsl:attribute name="class">pagina-img</xsl:attribute>
+                    <xsl:attribute name="class">pagina-cont</xsl:attribute>
                     <xsl:apply-templates select="//tei:surface[@n=$pagina]"/>
                     <xsl:element name="div">
                         <xsl:attribute name="class">pagina-text</xsl:attribute>
