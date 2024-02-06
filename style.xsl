@@ -141,5 +141,132 @@
         <xsl:element name="li"><xsl:value-of select="tei:segmentation"/></xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:surface">
+        <xsl:element name="div">
+            <xsl:attribute name="class">pagina-fac</xsl:attribute>
+            <xsl:element name="img">
+                <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
+                <xsl:attribute name="alt"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
 
+    <xsl:template match="tei:body">
+        <xsl:for-each-group select="tei:div/tei:ab/tei:s/node() | tei:div//tei:pb" group-starting-with="tei:pb">
+            <xsl:variable name="pagina">
+                <xsl:value-of select="@n"/>
+            </xsl:variable>
+            <xsl:element name="div">
+                <xsl:attribute name="class">pagina-body</xsl:attribute>
+                <xsl:element name="h2">Pagina <xsl:value-of select="$pagina"/></xsl:element>
+                <xsl:element name="div">
+                    <xsl:attribute name="class">pagina-img</xsl:attribute>
+                    <xsl:apply-templates select="//tei:surface[@n=$pagina]"/>
+                    <xsl:element name="div">
+                        <xsl:attribute name="class">pagina-text</xsl:attribute>
+                        <xsl:apply-templates select="current-group()"/>
+                    </xsl:element>  
+                </xsl:element>
+            </xsl:element>
+        </xsl:for-each-group> 
+    </xsl:template>
+    <xsl:template match="tei:s/tei:persName">
+        <xsl:element name="span">
+            <xsl:attribute name="class">person</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:s/tei:orgName">
+        <xsl:element name="span">
+            <xsl:attribute name="class">organization</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:del">
+        <xsl:element name="span">
+            <xsl:attribute name="class">deleted</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:add">
+        <xsl:element name="span">
+            <xsl:attribute name="class">added</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:sic">
+        <xsl:element name="span">
+            <xsl:attribute name="class">error</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:corr">
+        <xsl:element name="span">
+            <xsl:attribute name="class">correction</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:orig">
+        <xsl:element name="span">
+            <xsl:attribute name="class">arcaic</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:reg">
+        <xsl:element name="span">
+            <xsl:attribute name="class">regolarized</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:expan">
+        <xsl:element name="span">
+            <xsl:attribute name="class">expanded</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:abbr">
+        <xsl:element name="span">
+            <xsl:attribute name="class">short</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:lb">
+        <xsl:element name="br"></xsl:element>
+        <xsl:element name="span">
+            <xsl:attribute name="class">line-break</xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:standOff/tei:listOrg">
+        <xsl:for-each select="tei:org">
+            <xsl:element name="h3">
+                <xsl:value-of select="tei:orgName"/> 
+            </xsl:element>
+            <xsl:element name="p">
+                <xsl:value-of select="tei:desc"/>
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="tei:standOff/tei:listPerson">
+        <xsl:for-each select="tei:person">
+            <xsl:element name="h3">
+                <xsl:value-of select="tei:persName"/> 
+            </xsl:element>
+            <xsl:if test="tei:note" > 
+                <xsl:element name="p">
+                    <xsl:value-of select="tei:note"/>
+                </xsl:element></xsl:if>
+        </xsl:for-each>
+    </xsl:template>
 </xsl:stylesheet>
