@@ -103,19 +103,35 @@ body {
     width: 100%;
 }
 
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
 .buttons button {
     padding: 10px;
     font-size: medium;
     border-radius: 5px;
     border-style: none;
+    background-color: #004756;
+    color: white;
 }
 .buttons button:hover{
-    background-color: gainsboro;
+    background-color: #006579;
     cursor: pointer;
 }
 
 .error {
     background-color: red;
+}
+
+.deleted {
+    text-decoration: line-through;
+    background-color: greenyellow;
+}
+
+.short {
+    background-color: yellow;
 }
 
 a {

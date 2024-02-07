@@ -173,8 +173,16 @@
                 <xsl:element name="div">
                     <xsl:attribute name="class">buttons</xsl:attribute>
                     <xsl:element name="button">
-                        <xsl:attribute name="onclick">showErr(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        <xsl:attribute name="onclick">toggleErr(<xsl:value-of select="$pagina"/>)</xsl:attribute>
                         Errori
+                    </xsl:element>
+                    <xsl:element name="button">
+                        <xsl:attribute name="onclick">toggleDel(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        Cancellature
+                    </xsl:element>
+                    <xsl:element name="button">
+                        <xsl:attribute name="onclick">toggleAbbr(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        Abbreviazioni
                     </xsl:element>
                 </xsl:element>
                 <xsl:element name="div">
@@ -191,14 +199,14 @@
 
     <xsl:template match="tei:s/tei:persName">
         <xsl:element name="span">
-            <xsl:attribute name="class">person</xsl:attribute>
+            <xsl:attribute name="class">pers</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="tei:s/tei:orgName">
         <xsl:element name="span">
-            <xsl:attribute name="class">organization</xsl:attribute>
+            <xsl:attribute name="class">org</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -206,13 +214,25 @@
     <xsl:template match="tei:del">
         <xsl:element name="span">
             <xsl:attribute name="class">deleted</xsl:attribute>
+            <xsl:attribute name="style">display: none;</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tei:seg">
+        <xsl:variable name="trs">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:variable>
+        <xsl:element name="span">
+            <xsl:attribute name="id"><xsl:value-of select="$trs"/></xsl:attribute>
+            <xsl:attribute name="class">transposition</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
 
     <xsl:template match="tei:add">
         <xsl:element name="span">
-            <xsl:attribute name="class">added</xsl:attribute>
+            <xsl:attribute name="class">add</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -232,20 +252,6 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="tei:orig">
-        <xsl:element name="span">
-            <xsl:attribute name="class">arcaic</xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
-
-    <xsl:template match="tei:reg">
-        <xsl:element name="span">
-            <xsl:attribute name="class">regolarized</xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="tei:expan">
         <xsl:element name="span">
             <xsl:attribute name="class">expanded</xsl:attribute>
@@ -256,6 +262,7 @@
     <xsl:template match="tei:abbr">
         <xsl:element name="span">
             <xsl:attribute name="class">short</xsl:attribute>
+            <xsl:attribute name="style">display: none;</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
