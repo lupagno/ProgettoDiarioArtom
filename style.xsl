@@ -220,6 +220,7 @@
     <xsl:template match="tei:sic">
         <xsl:element name="span">
             <xsl:attribute name="class">error</xsl:attribute>
+            <xsl:attribute name="style">display: none;</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
