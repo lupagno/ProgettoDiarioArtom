@@ -9,7 +9,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">
-                    Diari di <persName ref="#EA">Emanuele Artom</persName>: versione elettronica
+                    Diari di <persName ref="#EA">Emanuele Artom</persName>
                 </title>
                 <author ref="#EA"> 
                     <persName>Emanuele Artom</persName> 
@@ -127,7 +127,7 @@
         <encodingDesc>
             <editorialDecl>
                 <correction>
-                    <p>Gli errori grammaticali sono stati corretti rispettando la grammatica<pc>.</pc></p>
+                    <p>Gli errori grammaticali sono stati corretti<pc>.</pc></p>
                 </correction>
                 <punctuation>
                     <p>I segni di punteggiatura sono stati mantenuti in maniera fedele al testo originale<pc>.</pc></p>
@@ -616,6 +616,12 @@
                 <orgName>Fronte Nazionale</orgName>
                 <desc>
                     Nel manoscritto appare evidente che si tratta di un movimento di resistenza al nazifascismo. Potrebbe identificarsi col <orgName>Comitato di Liberazione Nazionale</orgName>, che operò come organismo clandestino durante la Resistenza ed ebbe per delega poteri di governo nei giorni di insurrezione nazionale.
+                </desc>
+            </org>
+            <org xml:id="PdA">
+                <orgName>Partito d'Azione</orgName>
+                <desc>
+                    Il <orgName>Partito d'Azione</orgName> fu un partito politico fondato nel 1942 e sciolto nel 1947. Di ispirazione antifascista e liberal-socialista, svolse un’intensa attività clandestina durante gli anni del fascismo e della Resistenza.
                 </desc>
             </org>
         </listOrg>

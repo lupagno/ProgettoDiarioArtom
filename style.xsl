@@ -11,13 +11,13 @@
                 </title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <link rel="stylesheet" type="text/css" href="CSS/codifica_pagine.css"></link>
+                <script src="JS/codifica_pagine.js"></script>
             </head>
             <body>
                 <header>
                     <div id="header-title">
                         <h1><xsl:apply-templates select="//tei:titleStmt"/></h1>
                     </div>
-
                     <ul id="header-ul">
                         <li>
                             <a href="#info">Informazioni</a>
@@ -39,14 +39,18 @@
 
                 <div class="main">
                     <div id="info">
-                        <h2>Informazioni sul manoscritto e sulle scelte di codifica</h2>
-                            <p><xsl:apply-templates select="//tei:msDesc/tei:history"/></p>
-                            <p><xsl:apply-templates select="//tei:editionStmt"/></p>
-                            <p><xsl:apply-templates select="//tei:publicationStmt"/></p>
+                        <div id="msInfo">
+                            <h2>Informazioni sul manoscritto</h2>
+                            <div>
+                                <xsl:apply-templates select="//tei:sourceDesc/tei:msDesc"/>
+                            </div>
+                        </div>
+                        <div id="encodingInfo">
+                            <h2>Scelte di codifica</h2>
                             <ul>
                                 <xsl:apply-templates select="//tei:encodingDesc/tei:editorialDecl"/>
                             </ul>
-                            <p><xsl:apply-templates select="//tei:sourceDesc/tei:msDesc"/></p>
+                        </div>
                     </div>
                     <div id="pagine">
                         <h2>Pagine codificate</h2>
@@ -55,11 +59,14 @@
                     <div id="citazioni">
                         <h2>Organizzazioni e persone citate nel testo</h2>
                         <xsl:apply-templates select="//tei:standOff/tei:listOrg"/>
+                        <xsl:apply-templates select="//tei:standOff/tei:listPerson"/>
                     </div>
                 </div>
             </body>
 
             <footer>
+                <p><xsl:apply-templates select="//tei:editionStmt"/></p>
+                <p><xsl:apply-templates select="//tei:publicationStmt"/></p>
                 <p>Questo sito è stato realizzato da Luca Pagnesi per il corso di Codifica di Testi dell'Università di Pisa.</p>
 		        <p>Anno accademico 2022/2023</p>
             </footer>
@@ -130,6 +137,9 @@
         <xsl:element name="p">
             <xsl:value-of select="tei:physDesc/tei:accMat"/>
         </xsl:element>
+        <xsl:element name="p">
+            <xsl:value-of select="tei:history"/>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="tei:encodingDesc/tei:editorialDecl">
@@ -159,7 +169,14 @@
             <xsl:element name="div">
                 <xsl:attribute name="class">pagina-n-cont</xsl:attribute>
                 <xsl:attribute name="id">p<xsl:value-of select="$pagina"/></xsl:attribute>
-                <xsl:element name="h2">Pagina <xsl:value-of select="$pagina"/></xsl:element>
+                <xsl:element name="h3">Pagina <xsl:value-of select="$pagina"/></xsl:element>
+                <xsl:element name="div">
+                    <xsl:attribute name="class">buttons</xsl:attribute>
+                    <xsl:element name="button">
+                        <xsl:attribute name="onclick">showErr(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        Errori
+                    </xsl:element>
+                </xsl:element>
                 <xsl:element name="div">
                     <xsl:attribute name="class">pagina-cont</xsl:attribute>
                     <xsl:apply-templates select="//tei:surface[@n=$pagina]"/>
@@ -171,6 +188,7 @@
             </xsl:element>
         </xsl:for-each-group> 
     </xsl:template>
+
     <xsl:template match="tei:s/tei:persName">
         <xsl:element name="span">
             <xsl:attribute name="class">person</xsl:attribute>
