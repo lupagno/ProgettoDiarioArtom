@@ -93,7 +93,7 @@ body {
 
 .pagina-fac {
     min-width: 300px;
-    max-width: 450px;
+    max-width: 480px;
 }
 .pagina-text {
     margin-top: -1lh;
@@ -132,6 +132,25 @@ body {
 
 .short {
     background-color: yellow;
+}
+
+#citazioni {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #003742;
+    color: white;
+    padding: 30px;
+}
+footer p {
+    margin: 5px;
 }
 
 a {
