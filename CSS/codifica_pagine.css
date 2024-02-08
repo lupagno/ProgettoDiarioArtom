@@ -127,11 +127,11 @@ body {
 
 .deleted {
     text-decoration: line-through;
-    background-color: greenyellow;
+    background-color: yellow;
 }
 
 .short {
-    background-color: yellow;
+    background-color: greenyellow;
 }
 
 #citazioni {

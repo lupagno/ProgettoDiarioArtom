@@ -278,6 +278,13 @@
         </xsl:element>
     </xsl:template>
 
+    <xsl:template match="tei:c">
+        <xsl:element name="span">
+            <xsl:attribute name="class"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
     <xsl:template match="tei:standOff/tei:listOrg">
         <xsl:for-each select="tei:org">
             <xsl:element name="div">

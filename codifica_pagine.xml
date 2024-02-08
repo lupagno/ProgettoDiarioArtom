@@ -379,7 +379,7 @@
                         <lb n="2" facs="#p137_l2" break="yes" />
                         narrarle con precisione<pc>;</pc> bisogna che le riferisca
                         <lb n="3" facs="#p137_l3" break="yes" />
-                        ora<pc>,</pc> specie un<del rend="overstrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> colloquio con unb giovane studente di
+                        ora<pc>,</pc> specie un<del rend="overstrike"><gap reason="illegible" quantity="1" unit="character"></gap></del> colloquio con un giovane studente di
                         <lb n="4" facs="#p137_l4" break="yes" />
                         medicina<pc>,</pc> che ha voluto incontrarsi con me e che ci
                         <lb n="5" facs="#p137_l5" break="yes" />
@@ -424,21 +424,21 @@
                             <lb n="21" facs="#p137_l19" break="yes" />
                             dittatura di uno dei suoi<pc>.</pc>
                             <del>Non ci avevi</del>
+                            <lb n="22" facs="#p137_l20" break="yes" />
                         </seg>
                         <seg xml:id="trs02">
                             <metamark function="transposition" place="margin-left" rend="line"></metamark>
-                            <lb n="12" facs="#p137_l20" break="yes" />
                             Un giovane russo o americano della tua età
-                            <lb n="13" facs="#p137_l21" break="yes" />
+                            <lb n="12" facs="#p137_l21" break="yes" />
                             <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> non mi risponderebbe certo come te<pc>.</pc>
                             <del rend="overstrike">Non ci</del>
+                            <lb n="13" facs="#p137_l22" break="yes" />
                         </seg>
                     </s>
                     <s>
-                        <lb n="22" facs="#p137_l22" break="yes" />
                         Ho ragione<pc>?</pc> Si ha ammesso<pc>.</pc> <pc>-</pc> E non ci avevi
                         <lb n="23" facs="#p137_l23" break="yes" />
-                        mai pensato<pc>?</pc> <del rend="overstrike">Come</del><del rend="overstrike">Come crede</del> <add resp="#EA" place="above">Ti pare</add> che uno come me
+                        mai pensato<pc>?</pc> <del rend="overstrike">Come</del> <del rend="overstrike">Come crede</del> <add resp="#EA" place="above">Ti pare</add> che uno come me
                         <lb n="24" facs="#p137_l24" break="yes" />
                         pensi a queste cose<pc>?</pc> Ma mi ha promesso di occu<pc type="syllabication">-</pc>
                         <lb n="25" facs="#p137_l25" break="no" />
@@ -446,14 +446,14 @@
                     </s>
                     <s>
                         <lb n="26" facs="#p137_l26" break="yes" />
-                        Più <del rend="overstrike">grave</del><add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> <persName><choice><abbr type="suspension">P</abbr><expan resp="#LP">P<ex>altrinieri</ex></expan></choice></persName><pc>.</pc> e con
+                        Più <del rend="overstrike">grave</del> <add resp="#EA" place="above">penoso</add> è stato il colloquio con i <add resp="#EA" place="above">2</add> <persName><choice><abbr type="suspension">P</abbr><expan resp="#LP">P<ex>altrinieri</ex></expan></choice></persName><pc>.</pc> e con
                         <lb n="27" facs="#p137_l27" break="yes" />
                         <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>.</pc> ieri pomeriggio<pc>.</pc>
                     </s>
                     <s>
                         Come avevo scritto in uno
                         <lb n="28" facs="#p137_l28" break="yes" />
-                        dei fogli distrutti<pc>,</pc> <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>,</pc> <del rend="overstrike">fermato da me</del><del rend="overstrike">presento</del>
+                        dei fogli distrutti<pc>,</pc> <persName ref="#Ser"><choice><abbr type="suspension">S</abbr><expan resp="#LP">S<ex>ergio</ex></expan></choice></persName><pc>,</pc> <del rend="overstrike">fermato da me</del> <del rend="overstrike">presento</del>
                         <lb n="29" facs="#p137_l29" break="yes" />
                         quando fummo presentati e seppe che ero <choice><abbr type="suspension">comm</abbr><expan resp="#LP">commm<ex>issario</ex></expan></choice>
                         <lb n="30" facs="#p137_l30" break="yes" />
@@ -482,7 +482,7 @@
                     </s>
                     <s>
                         <lb n="2" facs="#p138_l2" break="yes" />
-                        Dici di essere apolitico, ma invece sei badogliano<pc>.</pc>
+                        Dici di essere apolitico, ma invece sei ba<choice><sic>u</sic><corr resp="#LP"></corr></choice>dogliano<pc>.</pc>
                     </s>
                     <s>
                         <lb n="3" facs="#p138_l3" break="yes" />
@@ -539,19 +539,19 @@
                         Siamo di fronte a quello che in termini
                         <lb n="22" facs="#p138_l22" break="yes" />
                         marxisti si chiama fine di una classe economica<pc>.</pc>
+                        <lb n="23" facs="#p138_l23" break="yes" />
                     </s>
                     <s>
                         <seg xml:id="trs03">
                             <metamark function="transposition" place="margin-left" rend="line"></metamark>
-                            <lb n="23" facs="#p138_l23" break="yes" />
-                            Servitù ai propri ordini<pc>,</pc>
+                            <c xml:id="toLower">S</c>ervitù ai propri ordini<pc>,</pc>
                         </seg>
                         <seg xml:id="trs04">
-                            titoli di studi <del rend="overstrike"><gap reason="illegible" quantity="3" unit="character"></gap></del>
+                            <c xml:id="toUpper">t</c>itoli di studi <del rend="overstrike">rag</del>
                             <lb n="24" facs="#p138_l24" break="yes" />
                             ottenuti senza merito<pc>,</pc> divertimenti e donne<pc>,</pc>
+                            <lb n="25" facs="#p138_l25" break="yes" />
                         </seg>
-                        <lb n="25" facs="#p138_l25" break="yes" />
                         guerra intesa sportivamente <add resp="#EA" place="below">perché sono indisciplinati</add> sono i tratti ca<pc type="syllabication">-</pc>
                         <lb n="26" facs="#p138_l26" break="yes" />
                         ratteristici di questi giovani<pc>,</pc> che<pc>,</pc> senza accor<pc>-</pc>
@@ -577,16 +577,17 @@
                         Di se stessi o di noi<pc>:</pc> non si capisce bene<pc>.</pc>
                     </s>
                     <s>
-                        <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> <del rend="overstrike">Con la decadenza</del> La religione è la forma
                         <lb n="33" facs="#p138_l33" break="yes" />
-                        più facile ed elementare di vita dello spirito<pc>;</pc>
+                        <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> <del rend="overstrike">Con la decadenza</del> La religione è la forma
                         <lb n="34" facs="#p138_l34" break="yes" />
-                        con la <del rend="overstrike">decad</del> fine della religione nella società
+                        più facile ed elementare di vita dello spirito<pc>;</pc>
                         <lb n="35" facs="#p138_l35" break="yes" />
-                        borghese<pc>,</pc> <del rend="overstrike">questi g</del> a molti non è più rimasto
+                        con la <del rend="overstrike">decad</del> fine della religione nella società
                         <lb n="36" facs="#p138_l36" break="yes" />
-                        nulla<pc>:</pc> si è tolto il passato senza sostituirlo con
+                        borghese<pc>,</pc> <del rend="overstrike">questi g</del> a molti non è più rimasto
                         <lb n="37" facs="#p138_l37" break="yes" />
+                        nulla<pc>:</pc> si è tolto il passato senza sostituirlo con
+                        <lb n="38" facs="#p138_l38" break="yes" />
                         altro<pc>.</pc>
                     </s>
                 </ab>

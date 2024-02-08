@@ -50,4 +50,12 @@ window.onload = function transpose() {
     const trs03 = document.getElementById("trs03").innerHTML;
     document.getElementById("trs03").innerHTML = document.getElementById("trs04").innerHTML;
     document.getElementById("trs04").innerHTML = trs03;
+    const toUpper = document.getElementsByClassName("toUpper");
+    for (let i = 0; i < toUpper.length; i++) {
+        toUpper[i].textContent = toUpper[i].textContent.toUpperCase();
+    }
+    const toLower = document.getElementsByClassName("toLower");
+    for (let i = 0; i < toLower.length; i++) {
+        toLower[i].textContent = toLower[i].textContent.toLowerCase();
+    }
 }
