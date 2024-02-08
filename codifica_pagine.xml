@@ -385,7 +385,7 @@
                         <lb n="4" facs="#p137_l4" break="yes" />
                         medicina<pc>,</pc> che ha voluto incontrarsi con me e che ci
                         <lb n="5" facs="#p137_l5" break="yes" />
-                        aiuterà molto<pc>:</pc> porterà messaggi e pacchi da e a <placeName ref="#TO">To<pc type="syllabication">-</pc>
+                        aiuterà molto<pc>:</pc> porterà messaggi e pacchi da e a <placeName>To<pc type="syllabication">-</pc>
                         <lb n="6" facs="#p137_l6" break="no" />
                         rino</placeName><pc>,</pc> ritirerà malati nella sua casa e li curerà<pc>,</pc>
                         <lb n="7" facs="#p137_l7" break="yes" />
@@ -407,7 +407,7 @@
                     </s>
                     <s>
                         <seg xml:id="trs01">
-                            <del rend="overstrike">se non hai opinioni po</del> il Fascismo non
+                            <del rend="overstrike">se non hai opinioni po</del> <reg>I</reg>l Fascismo non
                             <lb n="14" facs="#p137_l12" break="yes" />
                             è una tegola cadutaci per caso sulla testa<pc>;</pc> è
                             <lb n="15" facs="#p137_l13" break="yes" />
@@ -430,7 +430,7 @@
                         </seg>
                         <seg xml:id="trs02">
                             <metamark function="transposition" place="margin-left" rend="line"></metamark>
-                            Un giovane russo o americano della tua età
+                            <reg>u</reg>n giovane russo o americano della tua età
                             <lb n="12" facs="#p137_l21" break="yes" />
                             <del rend="overstrike"><gap reason="illegible" quantity="2" unit="character"></gap></del> non mi risponderebbe certo come te<pc>.</pc>
                             <del rend="overstrike">Non ci</del>
@@ -546,10 +546,10 @@
                     <s>
                         <seg xml:id="trs03">
                             <metamark function="transposition" place="margin-left" rend="line"></metamark>
-                            <c xml:id="toLower">S</c>ervitù ai propri ordini<pc>,</pc>
+                            <reg>s</reg>ervitù ai propri ordini<pc>,</pc>
                         </seg>
                         <seg xml:id="trs04">
-                            <c xml:id="toUpper">t</c>itoli di studi <del rend="overstrike">rag</del>
+                            <reg>T</reg>itoli di studi <del rend="overstrike">rag</del>
                             <lb n="24" facs="#p138_l24" break="yes" />
                             ottenuti senza merito<pc>,</pc> divertimenti e donne<pc>,</pc>
                             <lb n="25" facs="#p138_l25" break="yes" />

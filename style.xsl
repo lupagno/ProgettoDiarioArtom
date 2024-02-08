@@ -273,6 +273,13 @@
         </xsl:element>
     </xsl:template>
 
+    <xsl:template match="tei:reg">
+        <xsl:element name="span">
+            <xsl:attribute name="class">regularized</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+
     <xsl:template match="tei:abbr">
         <xsl:element name="span">
             <xsl:attribute name="class">short</xsl:attribute>
@@ -285,13 +292,6 @@
         <xsl:element name="br"></xsl:element>
         <xsl:element name="span">
             <xsl:attribute name="class">line-break</xsl:attribute>
-        </xsl:element>
-    </xsl:template>
-
-    <xsl:template match="tei:c">
-        <xsl:element name="span">
-            <xsl:attribute name="class"><xsl:value-of select="@xml:id"/></xsl:attribute>
-            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
 
