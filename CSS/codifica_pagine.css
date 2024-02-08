@@ -141,6 +141,10 @@ body {
     gap: 20px;
 }
 
+#citazioni h2 {
+    text-align: center;
+}
+
 footer {
     display: flex;
     flex-direction: column;
