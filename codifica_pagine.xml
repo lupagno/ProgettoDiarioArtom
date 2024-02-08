@@ -371,8 +371,10 @@
                 </ab>
                 <pb n="137" facs="#p137" />
                 <ab>
-                    <lb facs="p137_date" break="yes" />
-                    <date when="1944-01-26">26 <choice><abbr type="suspension">genn<pc>.</pc></abbr><expan resp="#LP">genn<ex>aio</ex></expan></choice></date>
+                    <s>
+                        <lb facs="p137_date" break="yes" />
+                        <date when="1944-01-26">26 <choice><abbr type="suspension">genn<pc>.</pc></abbr><expan resp="#LP">genn<ex>aio</ex></expan></choice></date>
+                    </s>
                     <s>
                         <lb n="1" facs="#p137_l1" break="yes" />
                         Le vicende di ieri non ebbi ieri sera tempo di
@@ -570,7 +572,7 @@
                     <s>
                         Invece<pc>,</pc> quando noi
                         <lb n="31" facs="#p138_l31" break="yes" />
-                        parliamo loro<pc>,</pc> ridono allegramente<pc>:</pc> di chi<pc>?</pc>
+                        parliamo<choice><sic></sic><corr resp="#LP"><pc>,</pc></corr></choice> loro<choice><sic><pc>,</pc></sic><corr resp="#LP"></corr></choice> ridono allegramente<pc>:</pc> di chi<pc>?</pc>
                     </s>
                     <s>
                         <lb n="32" facs="#p138_l32" break="yes" />
