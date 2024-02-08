@@ -43,6 +43,32 @@ function toggleAbbr(npag) {
     }
 }
 
+function togglePers(npag) {
+    const idpag = "p" + npag;
+    const pagina = document.getElementById(idpag);
+    const people = pagina.getElementsByClassName("pers");
+    for (let i = 0; i < people.length; i++) {
+        if (people[i].style.backgroundColor === "lightseagreen") {
+            people[i].style.backgroundColor = "transparent";
+        } else {
+            people[i].style.backgroundColor = "lightseagreen";
+        }
+    }
+}
+
+function toggleOrg(npag) {
+    const idpag = "p" + npag;
+    const pagina = document.getElementById(idpag);
+    const orgs = pagina.getElementsByClassName("org");
+    for (let i = 0; i < orgs.length; i++) {
+        if (orgs[i].style.backgroundColor === "lightsalmon") {
+            orgs[i].style.backgroundColor = "transparent";
+        } else {
+            orgs[i].style.backgroundColor = "lightsalmon";
+        }
+    }
+}
+
 window.onload = function transpose() {
     const trs01 = document.getElementById("trs01").innerHTML;
     document.getElementById("trs01").innerHTML = document.getElementById("trs02").innerHTML;

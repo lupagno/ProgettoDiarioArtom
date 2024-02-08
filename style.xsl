@@ -188,6 +188,14 @@
                         <xsl:attribute name="onclick">toggleAbbr(<xsl:value-of select="$pagina"/>)</xsl:attribute>
                         Abbreviazioni
                     </xsl:element>
+                    <xsl:element name="button">
+                        <xsl:attribute name="onclick">togglePers(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        Persone
+                    </xsl:element>
+                    <xsl:element name="button">
+                        <xsl:attribute name="onclick">toggleOrg(<xsl:value-of select="$pagina"/>)</xsl:attribute>
+                        Organizzazioni
+                    </xsl:element>
                 </xsl:element>
                 <xsl:element name="div">
                     <xsl:attribute name="class">pagina-cont</xsl:attribute>
@@ -204,6 +212,7 @@
     <xsl:template match="tei:s/tei:persName">
         <xsl:element name="span">
             <xsl:attribute name="class">pers</xsl:attribute>
+            <xsl:attribute name="style">background-color: transparent;</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -211,6 +220,7 @@
     <xsl:template match="tei:s/tei:orgName">
         <xsl:element name="span">
             <xsl:attribute name="class">org</xsl:attribute>
+            <xsl:attribute name="style">background-color: transparent;</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
